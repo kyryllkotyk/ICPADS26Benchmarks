@@ -1,0 +1,44 @@
+================================================
+  NLOC    CCN   token  PARAM  length  location  
+------------------------------------------------
+      11      2     37      2      13 gcdInt@4-16@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/DGEMM/SUMMA/HPX/HPXdgemmSUMMA.cpp
+      22      3     73      3      25 split1D@19-43@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/DGEMM/SUMMA/HPX/HPXdgemmSUMMA.cpp
+      27      1    100      3      35 valueAt@46-80@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/DGEMM/SUMMA/HPX/HPXdgemmSUMMA.cpp
+      14      4     55      1      17 parseInitType@83-99@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/DGEMM/SUMMA/HPX/HPXdgemmSUMMA.cpp
+     102      1    280      9     114 LocalTile::LocalTile@101-214@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/DGEMM/SUMMA/HPX/HPXdgemmSUMMA.cpp
+      25      5     83      2      29 LocalTile::genA@216-244@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/DGEMM/SUMMA/HPX/HPXdgemmSUMMA.cpp
+      25      5     83      2      29 LocalTile::genB@246-274@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/DGEMM/SUMMA/HPX/HPXdgemmSUMMA.cpp
+      32      3    150      2      38 LocalTile::fillAPanelForStep@276-313@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/DGEMM/SUMMA/HPX/HPXdgemmSUMMA.cpp
+      32      3    150      2      38 LocalTile::fillBPanelForStep@315-352@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/DGEMM/SUMMA/HPX/HPXdgemmSUMMA.cpp
+      36      2    143      2      42 LocalTile::storeAFromPayload@354-395@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/DGEMM/SUMMA/HPX/HPXdgemmSUMMA.cpp
+      35      2    135      2      40 LocalTile::storeBFromPayload@397-436@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/DGEMM/SUMMA/HPX/HPXdgemmSUMMA.cpp
+      90      7    530      1     122 LocalTile::accumulatePanel@438-559@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/DGEMM/SUMMA/HPX/HPXdgemmSUMMA.cpp
+       7      1     26      0       7 LocalTile::resetC@561-567@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/DGEMM/SUMMA/HPX/HPXdgemmSUMMA.cpp
+       7      2     30      0      10 LocalTile::checksum@569-578@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/DGEMM/SUMMA/HPX/HPXdgemmSUMMA.cpp
+      23      1     72      9      24 initTileImpl@584-607@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/DGEMM/SUMMA/HPX/HPXdgemmSUMMA.cpp
+       7      1     23      1       8 installLocalityTableImpl@614-621@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/DGEMM/SUMMA/HPX/HPXdgemmSUMMA.cpp
+      11      2     32      2      12 receiveAImpl@628-639@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/DGEMM/SUMMA/HPX/HPXdgemmSUMMA.cpp
+      11      2     32      2      12 receiveBImpl@646-657@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/DGEMM/SUMMA/HPX/HPXdgemmSUMMA.cpp
+      72      9    279      1      93 broadcastPanelsImpl@664-756@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/DGEMM/SUMMA/HPX/HPXdgemmSUMMA.cpp
+       9      2     21      1       9 accumulatePanelImpl@763-771@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/DGEMM/SUMMA/HPX/HPXdgemmSUMMA.cpp
+       5      2     17      0       5 resetCImpl@778-782@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/DGEMM/SUMMA/HPX/HPXdgemmSUMMA.cpp
+       2      1      5      0       3 timedPhaseBarrierImpl@789-791@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/DGEMM/SUMMA/HPX/HPXdgemmSUMMA.cpp
+       6      2     21      0       7 getChecksumImpl@798-804@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/DGEMM/SUMMA/HPX/HPXdgemmSUMMA.cpp
+     297     19   1260      1     362 hpx_main@811-1172@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/DGEMM/SUMMA/HPX/HPXdgemmSUMMA.cpp
+2 file analyzed.
+==============================================================
+NLOC    Avg.NLOC  AvgCCN  Avg.token  function_cnt    file
+--------------------------------------------------------------
+    106       0.0     0.0        0.0         0     /home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/DGEMM/SUMMA/HPX/HPXdgemmSUMMA.h
+    947      37.8     3.4      151.5        24     /home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/DGEMM/SUMMA/HPX/HPXdgemmSUMMA.cpp
+
+===========================================================================================================
+!!!! Warnings (cyclomatic_complexity > 15 or length > 1000 or nloc > 1000000 or parameter_count > 100) !!!!
+================================================
+  NLOC    CCN   token  PARAM  length  location  
+------------------------------------------------
+     297     19   1260      1     362 hpx_main@811-1172@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/DGEMM/SUMMA/HPX/HPXdgemmSUMMA.cpp
+==========================================================================================
+Total nloc   Avg.NLOC  AvgCCN  Avg.token   Fun Cnt  Warning cnt   Fun Rt   nloc Rt
+------------------------------------------------------------------------------------------
+      1053      37.8     3.4      151.5       24            1      0.04    0.33

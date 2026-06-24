@@ -1,0 +1,24 @@
+================================================
+  NLOC    CCN   token  PARAM  length  location  
+------------------------------------------------
+      22      3     75      3      25 PM2_DGEMM::split1D@4-28@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/DGEMM/CANNONS/PM2/pm2dgemmCANNONS.cpp
+      27      1     88      3      35 PM2_DGEMM::valueAt@31-65@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/DGEMM/CANNONS/PM2/pm2dgemmCANNONS.cpp
+      24      8     86      7      27 PM2_DGEMM::inputValidation@68-94@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/DGEMM/CANNONS/PM2/pm2dgemmCANNONS.cpp
+     470     25   1768      7     638 PM2_DGEMM::runBenchmarkCannons@97-734@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/DGEMM/CANNONS/PM2/pm2dgemmCANNONS.cpp
+2 file analyzed.
+==============================================================
+NLOC    Avg.NLOC  AvgCCN  Avg.token  function_cnt    file
+--------------------------------------------------------------
+     43       0.0     0.0        0.0         0     /home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/DGEMM/CANNONS/PM2/pm2dgemmCANNONS.h
+    544     135.8     9.2      504.2         4     /home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/DGEMM/CANNONS/PM2/pm2dgemmCANNONS.cpp
+
+===========================================================================================================
+!!!! Warnings (cyclomatic_complexity > 15 or length > 1000 or nloc > 1000000 or parameter_count > 100) !!!!
+================================================
+  NLOC    CCN   token  PARAM  length  location  
+------------------------------------------------
+     470     25   1768      7     638 PM2_DGEMM::runBenchmarkCannons@97-734@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/DGEMM/CANNONS/PM2/pm2dgemmCANNONS.cpp
+==========================================================================================
+Total nloc   Avg.NLOC  AvgCCN  Avg.token   Fun Cnt  Warning cnt   Fun Rt   nloc Rt
+------------------------------------------------------------------------------------------
+       587     135.8     9.2      504.2        4            1      0.25    0.87

@@ -1,0 +1,91 @@
+CCCC - a code counter for C and C++
+===================================
+
+A program to analyse C and C++ source code and report on
+some simple software metrics
+Version 3.1.6
+Copyright Tim Littlefair, 1995, 1996, 1997, 1998, 1999, 2000
+with contributions from Bill McLean, Herman Hueni, Lynn Wilson 
+Peter Bell, Thomas Hieber and Kenneth H. Cox.
+
+The development of this program was heavily dependent on
+the Purdue Compiler Construction Tool Set (PCCTS) 
+by Terence Parr, Will Cohen, Hank Dietz, Russel Quoung,
+Tom Moog and others.
+
+CCCC comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistribute it
+under certain conditions.  See the file COPYING in the source
+code distribution for details.
+Parsing
+Processing /home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/HPX/HPXmotifsearch.h as C/C++ (c.ansi)
+Unrecognized section from char on line 54 to ; on line 54
+=====ignored section begins=====
+...; 
+===== ignored section ends =====
+Syntax error: parser failed to handle char const hpx_check_boost_version_108900 ......;  on lines 54 to 54
+/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/HPX/HPXmotifsearch.h(54): syntax error at token char
+/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/HPX/HPXmotifsearch.h(54): trying to match definition_or_declaration at 'char'
+Unrecognized section from char on line 55 to ; on line 55
+=====ignored section begins=====
+...; 
+===== ignored section ends =====
+Syntax error: parser failed to handle char const hpx_check_boost_version_107500 ......;  on lines 55 to 55
+/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/HPX/HPXmotifsearch.h(55): syntax error at token char
+/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/HPX/HPXmotifsearch.h(55): trying to match definition_or_declaration at 'char'
+/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/HPX/HPXmotifsearch.h(70): syntax error at token int
+/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/HPX/HPXmotifsearch.h(70): trying to match class_block_item_list at 'int'
+/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/HPX/HPXmotifsearch.h(106): syntax error at token bool
+/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/HPX/HPXmotifsearch.h(106): trying to match class_block_item_list at 'bool'
+/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/HPX/HPXmotifsearch.h(122): syntax error at token std
+/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/HPX/HPXmotifsearch.h(122): trying to match class_block_item_list at 'std'
+/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/HPX/HPXmotifsearch.h(125): syntax error at token {
+/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/HPX/HPXmotifsearch.h(125): trying to match instance_declaration at 'std'
+/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/HPX/HPXmotifsearch.h(132): syntax error at token noexcept
+/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/HPX/HPXmotifsearch.h(132): trying to match method_suffix at 'noexcept'
+/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/HPX/HPXmotifsearch.h(136): syntax error at token noexcept
+/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/HPX/HPXmotifsearch.h(136): trying to match method_suffix at 'noexcept'
+/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/HPX/HPXmotifsearch.h(137): syntax error at token }
+/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/HPX/HPXmotifsearch.h(137): trying to match start at '}'
+Processing /home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/HPX/HPXmotifsearch.cpp as C/C++ (c++.ansi)
+Unrecognized section from char on line 5 to ; on line 5
+=====ignored section begins=====
+...; 
+===== ignored section ends =====
+Syntax error: parser failed to handle char const hpx_check_boost_version_108900 ......;  on lines 5 to 5
+/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/HPX/HPXmotifsearch.cpp(5): syntax error at token char
+/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/HPX/HPXmotifsearch.cpp(5): trying to match definition_or_declaration at 'char'
+Unrecognized section from char on line 6 to ; on line 6
+=====ignored section begins=====
+...; 
+===== ignored section ends =====
+Syntax error: parser failed to handle char const hpx_check_boost_version_107500 ......;  on lines 6 to 6
+/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/HPX/HPXmotifsearch.cpp(6): syntax error at token char
+/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/HPX/HPXmotifsearch.cpp(6): trying to match definition_or_declaration at 'char'
+/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/HPX/HPXmotifsearch.cpp(12): syntax error at token threadMatch
+/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/HPX/HPXmotifsearch.cpp(12): trying to match brack_list at 'threadMatch'
+/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/HPX/HPXmotifsearch.cpp(13): syntax error at token threadEpoch
+/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/HPX/HPXmotifsearch.cpp(13): trying to match brack_list at 'threadEpoch'
+/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/HPX/HPXmotifsearch.cpp(14): syntax error at token threadCurrentEpoch
+/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/HPX/HPXmotifsearch.cpp(14): trying to match brack_list at 'threadCurrentEpoch'
+/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/HPX/HPXmotifsearch.cpp(34): syntax error at token void
+/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/HPX/HPXmotifsearch.cpp(34): trying to match class_block_item_list at 'void'
+/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/HPX/HPXmotifsearch.cpp(59): syntax error at token }
+/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/HPX/HPXmotifsearch.cpp(59): trying to match opt_instance_list at '}'
+/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/HPX/HPXmotifsearch.cpp(68): syntax error at token return
+/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/HPX/HPXmotifsearch.cpp(9): trying to match namespace_block at 'namespace'
+/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/HPX/HPXmotifsearch.cpp(72): syntax error at token const
+/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/HPX/HPXmotifsearch.cpp(3): trying to match namespace_block at 'namespace'
+/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/HPX/HPXmotifsearch.cpp(94): syntax error at token for
+/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/HPX/HPXmotifsearch.cpp(94): trying to match start at 'for'
+
+Generating HTML reports
+
+Generating XML reports
+
+Primary HTML output is in /home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/ProgrammabilityMetricsOutput/MotifSearch/HPX/raw/cccc/cccc.html
+Detailed HTML reports on modules and source are in /home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/ProgrammabilityMetricsOutput/MotifSearch/HPX/raw/cccc
+Primary XML output is in /home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/ProgrammabilityMetricsOutput/MotifSearch/HPX/raw/cccc/cccc.xml
+Detailed XML reports on modules are in /home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/ProgrammabilityMetricsOutput/MotifSearch/HPX/raw/cccc
+Database dump is in /home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/ProgrammabilityMetricsOutput/MotifSearch/HPX/raw/cccc/cccc.db
+

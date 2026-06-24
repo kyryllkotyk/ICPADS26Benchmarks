@@ -1,0 +1,137 @@
+{
+  "statistics": {
+    "detectionDate": "2026-05-28T20:10:58.181Z",
+    "formats": {
+      "c-header": {
+        "sources": {
+          "/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/DGEMM/SUMMA/MASS/MASSdgemmSUMMA.h": {
+            "lines": 55,
+            "tokens": 275,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/DGEMM/SUMMA/MASS/DGEMMPlace.h": {
+            "lines": 196,
+            "tokens": 1074,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 251,
+          "tokens": 1349,
+          "sources": 2,
+          "clones": 0,
+          "duplicatedLines": 0,
+          "duplicatedTokens": 0,
+          "percentage": 0,
+          "percentageTokens": 0,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      },
+      "cpp": {
+        "sources": {
+          "/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/DGEMM/SUMMA/MASS/MASSdgemmSUMMA.cpp": {
+            "lines": 240,
+            "tokens": 1471,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/DGEMM/SUMMA/MASS/DGEMMPlace.cpp": {
+            "lines": 947,
+            "tokens": 6496,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 32,
+            "duplicatedTokens": 228,
+            "percentage": 3.38,
+            "percentageTokens": 3.51,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 1187,
+          "tokens": 7967,
+          "sources": 2,
+          "clones": 1,
+          "duplicatedLines": 16,
+          "duplicatedTokens": 114,
+          "percentage": 1.35,
+          "percentageTokens": 1.43,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      }
+    },
+    "total": {
+      "lines": 1438,
+      "tokens": 9316,
+      "sources": 4,
+      "clones": 1,
+      "duplicatedLines": 16,
+      "duplicatedTokens": 114,
+      "percentage": 1.11,
+      "percentageTokens": 1.22,
+      "newDuplicatedLines": 0,
+      "newClones": 0
+    }
+  },
+  "duplicates": [
+    {
+      "format": "cpp",
+      "lines": 17,
+      "fragment": "(\r\n    const int globalRow,\r\n    const int globalCol\r\n) const\r\n{\r\n    switch (initType_) {\r\n        case InitType::ONES:\r\n            return 1.0;\r\n\r\n        case InitType::IDENTITY:\r\n            return globalRow == globalCol\r\n                ? 1.0\r\n                : 0.0;\r\n\r\n        case InitType::DETERMINISTIC:\r\n            return static_cast<double>(\r\n                globalRow * matrixCols_",
+      "tokens": 0,
+      "firstFile": {
+        "name": "DGEMM/SUMMA/MASS/DGEMMPlace.cpp",
+        "start": 279,
+        "end": 295,
+        "startLoc": {
+          "line": 279,
+          "column": 29,
+          "position": 1557
+        },
+        "endLoc": {
+          "line": 295,
+          "column": 40,
+          "position": 1671
+        }
+      },
+      "secondFile": {
+        "name": "DGEMM/SUMMA/MASS/DGEMMPlace.cpp",
+        "start": 248,
+        "end": 264,
+        "startLoc": {
+          "line": 248,
+          "column": 29,
+          "position": 1361
+        },
+        "endLoc": {
+          "line": 264,
+          "column": 45,
+          "position": 1475
+        }
+      }
+    }
+  ]
+}

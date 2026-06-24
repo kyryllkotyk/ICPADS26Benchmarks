@@ -1,0 +1,48 @@
+{
+  "statistics": {
+    "detectionDate": "2026-05-28T20:11:23.912Z",
+    "formats": {
+      "c-header": {
+        "sources": {
+          "/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/HPX/HPXheat3d.h": {
+            "lines": 127,
+            "tokens": 641,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 127,
+          "tokens": 641,
+          "sources": 1,
+          "clones": 0,
+          "duplicatedLines": 0,
+          "duplicatedTokens": 0,
+          "percentage": 0,
+          "percentageTokens": 0,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      }
+    },
+    "total": {
+      "lines": 127,
+      "tokens": 641,
+      "sources": 1,
+      "clones": 0,
+      "duplicatedLines": 0,
+      "duplicatedTokens": 0,
+      "percentage": 0,
+      "percentageTokens": 0,
+      "newDuplicatedLines": 0,
+      "newClones": 0
+    }
+  },
+  "duplicates": []
+}

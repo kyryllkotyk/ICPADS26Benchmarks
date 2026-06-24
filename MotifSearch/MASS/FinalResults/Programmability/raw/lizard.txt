@@ -1,0 +1,55 @@
+================================================
+  NLOC    CCN   token  PARAM  length  location  
+------------------------------------------------
+       7      1     15      1       7 instantiate@10-16@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearchMotifPlace.cpp
+       5      1     11      1       5 destroy@19-23@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearchMotifPlace.cpp
+       7      1     28      1       7 BacktrackSearch::degree@62-68@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearchMotifPlace.cpp
+       5      1     21      1       5 BacktrackSearch::firstNeighborOfVertex@70-74@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearchMotifPlace.cpp
+       5      1     23      1       5 BacktrackSearch::afterLastNeighborOfVertex@76-80@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearchMotifPlace.cpp
+      14      1     31      2      14 BacktrackSearch::hasEdge@83-96@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearchMotifPlace.cpp
+      24      3    108      5      28 BacktrackSearch::pickPivot@99-126@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearchMotifPlace.cpp
+      66     10    240      1      86 BacktrackSearch::runConnected@129-214@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearchMotifPlace.cpp
+      80     13    309      1     104 BacktrackSearch::runGeneral@217-320@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearchMotifPlace.cpp
+      46      4    181      5      57 searchFromRoot@324-380@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearchMotifPlace.cpp
+       5      1     23      1       5 RequiredTable::row@383-387@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearchMotifPlace.cpp
+       5      1     18      1       5 RequiredTable::count@389-393@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearchMotifPlace.cpp
+      24      1     49      1      24 MotifPlace::MotifPlace@395-418@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearchMotifPlace.cpp
+       7      1     29      1       7 MotifPlace::degree@420-426@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearchMotifPlace.cpp
+       5      1     22      1       5 MotifPlace::firstNeighborOfVertex@428-432@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearchMotifPlace.cpp
+       5      1     24      1       5 MotifPlace::afterLastNeighborOfVertex@434-438@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearchMotifPlace.cpp
+      14      1     32      2      14 MotifPlace::hasEdge@440-453@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearchMotifPlace.cpp
+       8      1     24      2       8 MotifPlace::motifEdge@455-462@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearchMotifPlace.cpp
+     125      9    482      1     160 MotifPlace::init@465-624@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearchMotifPlace.cpp
+      22      2    109      1      28 MotifPlace::search@627-654@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearchMotifPlace.cpp
+       8      1     30      1      10 MotifPlace::getCount@656-665@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearchMotifPlace.cpp
+       8      1     30      1      10 MotifPlace::getSearchMs@667-676@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearchMotifPlace.cpp
+      22      1     66      1      22 MASS_MotifSearch::printUsage@9-30@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearch.cpp
+      72     14    264      2      73 MASS_MotifSearch::parseArguments@32-104@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearch.cpp
+      62      6    298      3      77 MASS_MotifSearch::generateErdosRenyi@106-182@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearch.cpp
+     105     10    504      1     131 MASS_MotifSearch::loadGraphFromFile@184-314@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearch.cpp
+      42      9    168      1      49 MASS_MotifSearch::computeAutomorphisms@316-364@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearch.cpp
+      24      2    124      3      28 MASS_MotifSearch::makeMotif@366-393@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearch.cpp
+      62      1    470      0      74 MASS_MotifSearch::builtinMotifs@396-469@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearch.cpp
+       8      1     27      2       8 MASS_MotifSearch::MotifPattern::hasEdge@471-478@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearch.cpp
+      25      4    115      2      31 MASS_MotifSearch::buildChunkStarts@480-510@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearch.cpp
+      80      1    309      3     115 MASS_MotifSearch::serializeBenchmarkData@511-625@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearch.cpp
+     297     17   1103      1     376 MASS_MotifSearch::run@627-1002@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearch.cpp
+4 file analyzed.
+==============================================================
+NLOC    Avg.NLOC  AvgCCN  Avg.token  function_cnt    file
+--------------------------------------------------------------
+    108       0.0     0.0        0.0         0     /home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearchMotifPlace.h
+    527      22.5     2.6       83.6        22     /home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearchMotifPlace.cpp
+    803      72.6     6.0      313.5        11     /home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearch.cpp
+     86       0.0     0.0        0.0         0     /home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearch.h
+
+===========================================================================================================
+!!!! Warnings (cyclomatic_complexity > 15 or length > 1000 or nloc > 1000000 or parameter_count > 100) !!!!
+================================================
+  NLOC    CCN   token  PARAM  length  location  
+------------------------------------------------
+     297     17   1103      1     376 MASS_MotifSearch::run@627-1002@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearch.cpp
+==========================================================================================
+Total nloc   Avg.NLOC  AvgCCN  Avg.token   Fun Cnt  Warning cnt   Fun Rt   nloc Rt
+------------------------------------------------------------------------------------------
+      1524      39.2     3.7      160.2       33            1      0.03    0.23

@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Detailed report on module anonymous-->
+<CCCC_Project>
+<module_summary>
+<lines_of_code value="1749" level="1" />
+<lines_of_code_per_member_function value="******" level="0" />
+<McCabes_cyclomatic_complexity value="215" level="1" />
+<McCabes_cyclomatic_complexity_per_member_function value="******" level="2" />
+<lines_of_code value="48" level="0" />
+<lines_of_code_per_member_function value="********" level="2" />
+<lines_of_code_per_line_of_comment value="36.437" level="2" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="4.479" level="0" />
+<weighted_methods_per_class_unity value="47" level="0" />
+<weighted_methods_per_class_visibility value="1" level="0" />
+<depth_of_inheritance_tree value="0" level="0" />
+<number_of_children value="0" level="0" />
+<coupling_between_objects value="0" level="0" />
+<IF4 value="0" level="0" />
+<IF4_per_member_function value="********" level="0" />
+<IF4_visible value="0" level="0" />
+<IF4_visible_per_member_function value="********" level="0" />
+<IF4_concrete value="0" level="0" />
+<IF4_concrete_per_member_function value="********" level="0" />
+</module_summary>
+<module_detail>
+</module_detail>
+<procedural_detail>
+<member_function>
+<name>HPX_PLAIN_ACTION(applyBoundaryWinsImpl,applyBoundaryWinsAction)</name>
+<extent>
+<description>declaration</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/HPX/HPXsugarscape.cpp" line="859" />
+</extent>
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>HPX_PLAIN_ACTION(applyMovesAndTakeSugarImpl,applyMovesAndTakeSugarAction)</name>
+<extent>
+<description>declaration</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/HPX/HPXsugarscape.cpp" line="904" />
+</extent>
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>HPX_PLAIN_ACTION(computeTargetsLocalImpl,computeTargetsLocalAction)</name>
+<extent>
+<description>declaration</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/HPX/HPXsugarscape.cpp" line="595" />
+</extent>
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>HPX_PLAIN_ACTION(finalAgentsSnapshotImpl,finalAgentsSnapshotAction)</name>
+<extent>
+<description>declaration</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/HPX/HPXsugarscape.cpp" line="1098" />
+</extent>
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>HPX_PLAIN_ACTION(finalLocalSugarImpl,finalLocalSugarAction)</name>
+<extent>
+<description>declaration</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/HPX/HPXsugarscape.cpp" line="1113" />
+</extent>
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>HPX_PLAIN_ACTION(getSugarHaloImpl,getSugarHaloAction)</name>
+<extent>
+<description>declaration</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/HPX/HPXsugarscape.cpp" line="431" />
+</extent>
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>HPX_PLAIN_ACTION(initWorkerImpl,initWorkerAction)</name>
+<extent>
+<description>declaration</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/HPX/HPXsugarscape.cpp" line="347" />
+</extent>
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>HPX_PLAIN_ACTION(integrateMigrationsImpl,integrateMigrationsAction)</name>
+<extent>
+<description>declaration</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/HPX/HPXsugarscape.cpp" line="1029" />
+</extent>
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>HPX_PLAIN_ACTION(metabolismAndDeathLocalImpl,metabolismAndDeathLocalAction)</name>
+<extent>
+<description>declaration</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/HPX/HPXsugarscape.cpp" line="1089" />
+</extent>
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>HPX_PLAIN_ACTION(packBoundaryCandidatesImpl,packBoundaryCandidatesAction)</name>
+<extent>
+<description>declaration</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/HPX/HPXsugarscape.cpp" line="642" />
+</extent>
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>HPX_PLAIN_ACTION(packMigrationsImpl,packMigrationsAction)</name>
+<extent>
+<description>declaration</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/HPX/HPXsugarscape.cpp" line="938" />
+</extent>
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>HPX_PLAIN_ACTION(regrowLocalImpl,regrowLocalAction)</name>
+<extent>
+<description>declaration</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/HPX/HPXsugarscape.cpp" line="387" />
+</extent>
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>HPX_PLAIN_ACTION(resolveConflictsLocalImpl,resolveConflictsLocalAction)</name>
+<extent>
+<description>declaration</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/HPX/HPXsugarscape.cpp" line="817" />
+</extent>
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>HPX_PLAIN_ACTION(takeSugarAtCurrentLocalImpl,takeSugarAtCurrentLocalAction)</name>
+<extent>
+<description>declaration</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/HPX/HPXsugarscape.cpp" line="1054" />
+</extent>
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>applyBoundaryWinsImpl(vector,vector,vector,vector)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/HPX/HPXsugarscape.cpp" line="823" />
+</extent>
+<lines_of_code value="33" level="1" />
+<McCabes_cyclomatic_complexity value="8" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="33.000" level="2" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="8.000" level="1" />
+</member_function>
+<member_function>
+<name>applyMovesAndTakeSugarImpl()</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/HPX/HPXsugarscape.cpp" line="865" />
+</extent>
+<lines_of_code value="32" level="1" />
+<McCabes_cyclomatic_complexity value="8" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="32.000" level="2" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="8.000" level="1" />
+</member_function>
+<member_function>
+<name>applyMovesOnAllLocalities(const vector &amp;,int)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/HPX/HPXsugarscape.cpp" line="1623" />
+</extent>
+<lines_of_code value="21" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="21.000" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>collectAndPrintFinalStats(const vector &amp;,int,int,const string &amp;,time_point,time_point,time_point)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/HPX/HPXsugarscape.cpp" line="1836" />
+</extent>
+<lines_of_code value="114" level="2" />
+<McCabes_cyclomatic_complexity value="6" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="114.000" level="2" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="6.000" level="1" />
+</member_function>
+<member_function>
+<name>computeTargetsForAllLocalities(...)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/HPX/HPXsugarscape.cpp" line="1435" />
+</extent>
+<lines_of_code value="28" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="28.000" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>computeTargetsLocalImpl(vector,vector)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/HPX/HPXsugarscape.cpp" line="437" />
+</extent>
+<lines_of_code value="139" level="2" />
+<McCabes_cyclomatic_complexity value="22" level="1" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="139.000" level="2" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="22.000" level="2" />
+</member_function>
+<member_function>
+<name>directionIndex(int,int,int,int)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/HPX/HPXsugarscape.cpp" line="201" />
+</extent>
+<lines_of_code value="22" level="0" />
+<McCabes_cyclomatic_complexity value="13" level="1" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="22.000" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="13.000" level="2" />
+</member_function>
+<member_function>
+<name>exchangeHaloRows(...)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/HPX/HPXsugarscape.cpp" line="1350" />
+</extent>
+<lines_of_code value="75" level="1" />
+<McCabes_cyclomatic_complexity value="8" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="75.000" level="2" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="8.000" level="1" />
+</member_function>
+<member_function>
+<name>finalAgentsSnapshotImpl()</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/HPX/HPXsugarscape.cpp" line="1095" />
+</extent>
+<lines_of_code value="3" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>finalLocalSugarImpl()</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/HPX/HPXsugarscape.cpp" line="1104" />
+</extent>
+<lines_of_code value="7" level="0" />
+<McCabes_cyclomatic_complexity value="2" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>findAgentIndex(int)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/HPX/HPXsugarscape.cpp" line="175" />
+</extent>
+<lines_of_code value="22" level="0" />
+<McCabes_cyclomatic_complexity value="5" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="22.000" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="5.000" level="0" />
+</member_function>
+<member_function>
+<name>finishTimestepOnAllLocalities(const vector &amp;,int)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/HPX/HPXsugarscape.cpp" line="1737" />
+</extent>
+<lines_of_code value="41" level="1" />
+<McCabes_cyclomatic_complexity value="2" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="41.000" level="2" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>getSugarHaloImpl(int,int)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/HPX/HPXsugarscape.cpp" line="393" />
+</extent>
+<lines_of_code value="33" level="1" />
+<McCabes_cyclomatic_complexity value="7" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="33.000" level="2" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="7.000" level="1" />
+</member_function>
+<member_function>
+<name>hpx_main(variables_map &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/HPX/HPXsugarscape.cpp" line="2068" />
+</extent>
+<lines_of_code value="41" level="1" />
+<McCabes_cyclomatic_complexity value="9" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="41.000" level="2" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="9.000" level="1" />
+</member_function>
+<member_function>
+<name>initWorkerImpl(int,int,int,int,vector,vector,int,int)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/HPX/HPXsugarscape.cpp" line="300" />
+</extent>
+<lines_of_code value="43" level="1" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="43.000" level="2" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>initializeLocalities(int,int,int,const vector &amp;,int)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/HPX/HPXsugarscape.cpp" line="1118" />
+</extent>
+<lines_of_code value="204" level="2" />
+<McCabes_cyclomatic_complexity value="17" level="1" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="204.000" level="2" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="17.000" level="2" />
+</member_function>
+<member_function>
+<name>integrateMigrationsImpl(vector,vector)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/HPX/HPXsugarscape.cpp" line="958" />
+</extent>
+<lines_of_code value="64" level="1" />
+<McCabes_cyclomatic_complexity value="12" level="1" />
+<lines_of_comment value="15" level="0" />
+<lines_of_code_per_line_of_comment value="4.267" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.800" level="0" />
+</member_function>
+<member_function>
+<name>markSugarGrowing(int)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/HPX/HPXsugarscape.cpp" line="122" />
+</extent>
+<lines_of_code value="16" level="0" />
+<McCabes_cyclomatic_complexity value="4" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>metabolismAndDeathLocalImpl()</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/HPX/HPXsugarscape.cpp" line="1060" />
+</extent>
+<lines_of_code value="26" level="0" />
+<McCabes_cyclomatic_complexity value="5" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="26.000" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="5.000" level="0" />
+</member_function>
+<member_function>
+<name>migrateAgentsBetweenLocalities(const vector &amp;,int)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/HPX/HPXsugarscape.cpp" line="1648" />
+</extent>
+<lines_of_code value="77" level="1" />
+<McCabes_cyclomatic_complexity value="6" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="77.000" level="2" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="6.000" level="1" />
+</member_function>
+<member_function>
+<name>packBoundaryCandidatesImpl()</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/HPX/HPXsugarscape.cpp" line="601" />
+</extent>
+<lines_of_code value="35" level="1" />
+<McCabes_cyclomatic_complexity value="5" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="35.000" level="2" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="5.000" level="0" />
+</member_function>
+<member_function>
+<name>packMigrationsImpl()</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/HPX/HPXsugarscape.cpp" line="910" />
+</extent>
+<lines_of_code value="24" level="0" />
+<McCabes_cyclomatic_complexity value="4" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="24.000" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>partitionForRow(int,int,int)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/HPX/HPXsugarscape.cpp" line="141" />
+</extent>
+<lines_of_code value="15" level="0" />
+<McCabes_cyclomatic_complexity value="5" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="5.000" level="0" />
+</member_function>
+<member_function>
+<name>regrowLocalImpl(int)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/HPX/HPXsugarscape.cpp" line="353" />
+</extent>
+<lines_of_code value="30" level="0" />
+<McCabes_cyclomatic_complexity value="4" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="30.000" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>resolveBoundaryMoves(const vector &amp;,int)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/HPX/HPXsugarscape.cpp" line="1467" />
+</extent>
+<lines_of_code value="136" level="2" />
+<McCabes_cyclomatic_complexity value="11" level="1" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="136.000" level="2" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="11.000" level="2" />
+</member_function>
+<member_function>
+<name>resolveConflictsLocalImpl(vector,vector)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/HPX/HPXsugarscape.cpp" line="648" />
+</extent>
+<lines_of_code value="147" level="2" />
+<McCabes_cyclomatic_complexity value="29" level="1" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="147.000" level="2" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="29.000" level="2" />
+</member_function>
+<member_function>
+<name>runSimulation(int,int,int,int,const string &amp;,const vector &amp;,int)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/HPX/HPXsugarscape.cpp" line="1972" />
+</extent>
+<lines_of_code value="80" level="1" />
+<McCabes_cyclomatic_complexity value="3" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="80.000" level="2" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>runSugarScapeBenchmark(...)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/HPX/HPXsugarscape.cpp" line="2116" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/HPX/HPXsugarscape.h" line="159" />
+</extent>
+<lines_of_code value="53" level="1" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="2" level="0" />
+<lines_of_code_per_line_of_comment value="26.500" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>sortAgentsById()</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/HPX/HPXsugarscape.cpp" line="161" />
+</extent>
+<lines_of_code value="12" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>sugarCapacity(int,int,int,int,int,int)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/HPX/HPXsugarscape.cpp" line="242" />
+</extent>
+<lines_of_code value="51" level="1" />
+<McCabes_cyclomatic_complexity value="7" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="51.000" level="2" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="7.000" level="1" />
+</member_function>
+<member_function>
+<name>takeSugarAtCurrentLocalImpl()</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/HPX/HPXsugarscape.cpp" line="1035" />
+</extent>
+<lines_of_code value="16" level="0" />
+<McCabes_cyclomatic_complexity value="3" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>touchConflictCell(int)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/HPX/HPXsugarscape.cpp" line="230" />
+</extent>
+<lines_of_code value="10" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>writeFinalAgentCsv(const string &amp;,int,vector &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/HPX/HPXsugarscape.cpp" line="1785" />
+</extent>
+<lines_of_code value="43" level="1" />
+<McCabes_cyclomatic_complexity value="4" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="43.000" level="2" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+</procedural_detail>
+<structural_detail>
+<module>
+<name>anonymous</name>
+<client_module>
+</client_module>
+<supplier_module>
+</supplier_module>
+</module>
+</structural_detail>
+</CCCC_Project>

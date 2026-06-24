@@ -1,0 +1,44 @@
+================================================
+  NLOC    CCN   token  PARAM  length  location  
+------------------------------------------------
+      30      1    152      6      36 valueAt@31-66@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/HPX/HPXheat3d.cpp
+      19      2     69      5      21 computeLocalRange@69-89@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/HPX/HPXheat3d.cpp
+      11      1     37      5      11 gridIndex@92-102@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/HPX/HPXheat3d.cpp
+       7      1     19      1       8 oppositeDirection@104-111@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/HPX/HPXheat3d.cpp
+      28      7    110      9      30 getNeighborId@114-143@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/HPX/HPXheat3d.cpp
+      70      1    251      1      75 computeNeighborIds@146-220@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/HPX/HPXheat3d.cpp
+     104     19    510      4     114 packFace@223-336@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/HPX/HPXheat3d.cpp
+      92     19    516      4      98 unpackFace@339-436@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/HPX/HPXheat3d.cpp
+     125     19    523      2     131 applyNeumannBoundaries@439-569@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/HPX/HPXheat3d.cpp
+      46      4    217      4      51 seedGrid@572-622@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/HPX/HPXheat3d.cpp
+      40      4    253     12      42 stencilSlab@625-666@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/HPX/HPXheat3d.cpp
+      24      4    125      1      27 computeLocalChecksum@669-695@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/HPX/HPXheat3d.cpp
+       7      1     23      1       7 installLocalityTableImpl@699-705@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/HPX/HPXheat3d.cpp
+      21      4     72      3      24 putFaceRemoteImpl@713-736@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/HPX/HPXheat3d.cpp
+     115      1    510     18     130 initWorkerImpl@744-873@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/HPX/HPXheat3d.cpp
+      15      2     39      3      16 reInitWorkerImpl@881-896@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/HPX/HPXheat3d.cpp
+      11      3     54      0      13 swapHaloReceiveBuffersImpl@904-916@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/HPX/HPXheat3d.cpp
+      40      6    154      0      47 sendInitialFacesImpl@924-970@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/HPX/HPXheat3d.cpp
+      92     12    354      1     109 runTimestepImpl@978-1086@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/HPX/HPXheat3d.cpp
+       8      2     22      0       9 getRemoteChecksumImpl@1094-1102@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/HPX/HPXheat3d.cpp
+     407     26   1774      1     484 hpx_main@1110-1593@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/HPX/HPXheat3d.cpp
+2 file analyzed.
+==============================================================
+NLOC    Avg.NLOC  AvgCCN  Avg.token  function_cnt    file
+--------------------------------------------------------------
+   1355      62.5     6.6      275.4        21     /home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/HPX/HPXheat3d.cpp
+     71       0.0     0.0        0.0         0     /home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/HPX/HPXheat3d.h
+
+===========================================================================================================
+!!!! Warnings (cyclomatic_complexity > 15 or length > 1000 or nloc > 1000000 or parameter_count > 100) !!!!
+================================================
+  NLOC    CCN   token  PARAM  length  location  
+------------------------------------------------
+     104     19    510      4     114 packFace@223-336@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/HPX/HPXheat3d.cpp
+      92     19    516      4      98 unpackFace@339-436@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/HPX/HPXheat3d.cpp
+     125     19    523      2     131 applyNeumannBoundaries@439-569@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/HPX/HPXheat3d.cpp
+     407     26   1774      1     484 hpx_main@1110-1593@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/HPX/HPXheat3d.cpp
+==========================================================================================
+Total nloc   Avg.NLOC  AvgCCN  Avg.token   Fun Cnt  Warning cnt   Fun Rt   nloc Rt
+------------------------------------------------------------------------------------------
+      1426      62.5     6.6      275.4       21            4      0.19    0.55

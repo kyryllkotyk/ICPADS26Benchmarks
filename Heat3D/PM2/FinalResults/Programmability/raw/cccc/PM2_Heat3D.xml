@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Detailed report on module PM2_Heat3D-->
+<CCCC_Project>
+<module_summary>
+<lines_of_code value="544" level="1" />
+<lines_of_code_per_member_function value="******" level="0" />
+<McCabes_cyclomatic_complexity value="24" level="0" />
+<McCabes_cyclomatic_complexity_per_member_function value="******" level="2" />
+<lines_of_code value="28" level="0" />
+<lines_of_code_per_member_function value="********" level="2" />
+<lines_of_code_per_line_of_comment value="19.429" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.857" level="0" />
+<weighted_methods_per_class_unity value="6" level="0" />
+<weighted_methods_per_class_visibility value="0" level="0" />
+<depth_of_inheritance_tree value="0" level="0" />
+<number_of_children value="0" level="0" />
+<coupling_between_objects value="4" level="0" />
+<IF4 value="0" level="0" />
+<IF4_per_member_function value="********" level="0" />
+<IF4_visible value="0" level="0" />
+<IF4_visible_per_member_function value="********" level="0" />
+<IF4_concrete value="0" level="0" />
+<IF4_concrete_per_member_function value="********" level="0" />
+</module_summary>
+<module_detail>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/PM2/pm2heat3d.h" line="49" />
+<lines_of_code value="70" level="1" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="6" level="0" />
+<lines_of_code_per_line_of_comment value="11.667" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</module_detail>
+<procedural_detail>
+<member_function>
+<name>blockToRank(const int,const int,const int,const int,const int,const int)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/PM2/pm2heat3d.cpp" line="1731" />
+</extent>
+<lines_of_code value="13" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>computeLocal(int &amp;,int &amp;,const int,const int,const int)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/PM2/pm2heat3d.cpp" line="1622" />
+</extent>
+<lines_of_code value="20" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="20.000" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>generateLocalGrid(const uint64_t,const double,const double,vector &amp;,const int,const int,const int,const int,const int,const int,const int)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/PM2/pm2heat3d.cpp" line="1647" />
+</extent>
+<lines_of_code value="69" level="1" />
+<McCabes_cyclomatic_complexity value="4" level="0" />
+<lines_of_comment value="3" level="0" />
+<lines_of_code_per_line_of_comment value="23.000" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>getNeighborRank(const int,const int,const int,const int,const int,const int,const int,const int,const int)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/PM2/pm2heat3d.cpp" line="1764" />
+</extent>
+<lines_of_code value="33" level="1" />
+<McCabes_cyclomatic_complexity value="3" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="33.000" level="2" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>inBoundsBlock(const int,const int,const int,const int,const int,const int)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/PM2/pm2heat3d.cpp" line="1747" />
+</extent>
+<lines_of_code value="15" level="0" />
+<McCabes_cyclomatic_complexity value="6" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="6.000" level="1" />
+</member_function>
+<member_function>
+<name>runBenchmark(const bool,const short,const short,const short,const uint64_t,const short,const short,const short,const double,const double,const float,const float,const short,const short,const short)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/PM2/pm2heat3d.cpp" line="1230" />
+</extent>
+<lines_of_code value="324" level="2" />
+<McCabes_cyclomatic_complexity value="9" level="0" />
+<lines_of_comment value="15" level="0" />
+<lines_of_code_per_line_of_comment value="21.600" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.600" level="0" />
+</member_function>
+</procedural_detail>
+<structural_detail>
+<module>
+<name>PM2_Heat3D</name>
+<client_module>
+</client_module>
+<supplier_module>
+<name>bool</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/PM2/pm2heat3d.cpp" line="1231" />
+</extent>
+<name>short</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/PM2/pm2heat3d.cpp" line="1232" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/PM2/pm2heat3d.cpp" line="1233" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/PM2/pm2heat3d.cpp" line="1234" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/PM2/pm2heat3d.cpp" line="1236" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/PM2/pm2heat3d.cpp" line="1237" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/PM2/pm2heat3d.cpp" line="1238" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/PM2/pm2heat3d.cpp" line="1243" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/PM2/pm2heat3d.cpp" line="1244" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/PM2/pm2heat3d.cpp" line="1245" />
+</extent>
+<name>uint64_t</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/PM2/pm2heat3d.cpp" line="1235" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/PM2/pm2heat3d.cpp" line="1648" />
+</extent>
+<name>vector</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/PM2/pm2heat3d.cpp" line="1651" />
+</extent>
+</supplier_module>
+</module>
+</structural_detail>
+</CCCC_Project>

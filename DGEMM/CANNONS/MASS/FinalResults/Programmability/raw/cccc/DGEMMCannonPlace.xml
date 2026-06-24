@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Detailed report on module DGEMMCannonPlace-->
+<CCCC_Project>
+<module_summary>
+<lines_of_code value="723" level="1" />
+<lines_of_code_per_member_function value="******" level="0" />
+<McCabes_cyclomatic_complexity value="63" level="0" />
+<McCabes_cyclomatic_complexity_per_member_function value="******" level="2" />
+<lines_of_code value="76" level="0" />
+<lines_of_code_per_member_function value="********" level="2" />
+<lines_of_code_per_line_of_comment value="9.513" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.829" level="0" />
+<weighted_methods_per_class_unity value="18" level="0" />
+<weighted_methods_per_class_visibility value="0" level="0" />
+<depth_of_inheritance_tree value="0" level="0" />
+<number_of_children value="0" level="0" />
+<coupling_between_objects value="1" level="0" />
+<IF4 value="0" level="0" />
+<IF4_per_member_function value="********" level="0" />
+<IF4_visible value="0" level="0" />
+<IF4_visible_per_member_function value="********" level="0" />
+<IF4_concrete value="0" level="0" />
+<IF4_concrete_per_member_function value="********" level="0" />
+</module_summary>
+<module_detail>
+</module_detail>
+<procedural_detail>
+<member_function>
+<name>DGEMMCannonPlace(void *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/DGEMM/CANNONS/MASS/DGEMMCannonPlace.cpp" line="22" />
+</extent>
+<lines_of_code value="31" level="1" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="31.000" level="2" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>allocateOutMessage()</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/DGEMM/CANNONS/MASS/DGEMMCannonPlace.cpp" line="230" />
+</extent>
+<lines_of_code value="56" level="1" />
+<McCabes_cyclomatic_complexity value="2" level="0" />
+<lines_of_comment value="4" level="0" />
+<lines_of_code_per_line_of_comment value="14.000" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>generateA(const int,const int)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/DGEMM/CANNONS/MASS/DGEMMCannonPlace.cpp" line="168" />
+</extent>
+<lines_of_code value="25" level="0" />
+<McCabes_cyclomatic_complexity value="6" level="0" />
+<lines_of_comment value="2" level="0" />
+<lines_of_code_per_line_of_comment value="12.500" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="3.000" level="0" />
+</member_function>
+<member_function>
+<name>generateB(const int,const int)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/DGEMM/CANNONS/MASS/DGEMMCannonPlace.cpp" line="199" />
+</extent>
+<lines_of_code value="25" level="0" />
+<McCabes_cyclomatic_complexity value="6" level="0" />
+<lines_of_comment value="2" level="0" />
+<lines_of_code_per_line_of_comment value="12.500" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="3.000" level="0" />
+</member_function>
+<member_function>
+<name>getChecksum(void *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/DGEMM/CANNONS/MASS/DGEMMCannonPlace.cpp" line="965" />
+</extent>
+<lines_of_code value="11" level="0" />
+<McCabes_cyclomatic_complexity value="2" level="0" />
+<lines_of_comment value="2" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>init(void *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/DGEMM/CANNONS/MASS/DGEMMCannonPlace.cpp" line="347" />
+</extent>
+<lines_of_code value="97" level="1" />
+<McCabes_cyclomatic_complexity value="4" level="0" />
+<lines_of_comment value="9" level="0" />
+<lines_of_code_per_line_of_comment value="10.778" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>initialFill(void *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/DGEMM/CANNONS/MASS/DGEMMCannonPlace.cpp" line="476" />
+</extent>
+<lines_of_code value="55" level="1" />
+<McCabes_cyclomatic_complexity value="5" level="0" />
+<lines_of_comment value="7" level="0" />
+<lines_of_code_per_line_of_comment value="7.857" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.714" level="0" />
+</member_function>
+<member_function>
+<name>multiplyOnly(void *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/DGEMM/CANNONS/MASS/DGEMMCannonPlace.cpp" line="813" />
+</extent>
+<lines_of_code value="97" level="1" />
+<McCabes_cyclomatic_complexity value="7" level="0" />
+<lines_of_comment value="14" level="0" />
+<lines_of_code_per_line_of_comment value="6.929" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.500" level="0" />
+</member_function>
+<member_function>
+<name>multiplyStep0(void *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/DGEMM/CANNONS/MASS/DGEMMCannonPlace.cpp" line="553" />
+</extent>
+<lines_of_code value="95" level="1" />
+<McCabes_cyclomatic_complexity value="7" level="0" />
+<lines_of_comment value="15" level="0" />
+<lines_of_code_per_line_of_comment value="6.333" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.467" level="0" />
+</member_function>
+<member_function>
+<name>parseInitType(const char *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/DGEMM/CANNONS/MASS/DGEMMCannonPlace.cpp" line="132" />
+</extent>
+<lines_of_code value="32" level="1" />
+<McCabes_cyclomatic_complexity value="5" level="0" />
+<lines_of_comment value="2" level="0" />
+<lines_of_code_per_line_of_comment value="16.000" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="2.500" level="0" />
+</member_function>
+<member_function>
+<name>publishShift(void *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/DGEMM/CANNONS/MASS/DGEMMCannonPlace.cpp" line="687" />
+</extent>
+<lines_of_code value="34" level="1" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="3" level="0" />
+<lines_of_code_per_line_of_comment value="11.333" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>recvShift(void *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/DGEMM/CANNONS/MASS/DGEMMCannonPlace.cpp" line="731" />
+</extent>
+<lines_of_code value="52" level="1" />
+<McCabes_cyclomatic_complexity value="7" level="0" />
+<lines_of_comment value="5" level="0" />
+<lines_of_code_per_line_of_comment value="10.400" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="1.400" level="0" />
+</member_function>
+<member_function>
+<name>resetC(void *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/DGEMM/CANNONS/MASS/DGEMMCannonPlace.cpp" line="948" />
+</extent>
+<lines_of_code value="12" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>setupShiftNeighbors()</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/DGEMM/CANNONS/MASS/DGEMMCannonPlace.cpp" line="303" />
+</extent>
+<lines_of_code value="29" level="0" />
+<McCabes_cyclomatic_complexity value="4" level="0" />
+<lines_of_comment value="4" level="0" />
+<lines_of_code_per_line_of_comment value="7.250" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>shiftFinish(void *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/DGEMM/CANNONS/MASS/DGEMMCannonPlace.cpp" line="794" />
+</extent>
+<lines_of_code value="14" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>split1D(const int,const int,const int)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/DGEMM/CANNONS/MASS/DGEMMCannonPlace.cpp" line="68" />
+</extent>
+<lines_of_code value="22" level="0" />
+<McCabes_cyclomatic_complexity value="3" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="22.000" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>valueAt(const int,const int,const uint64_t)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/DGEMM/CANNONS/MASS/DGEMMCannonPlace.cpp" line="95" />
+</extent>
+<lines_of_code value="27" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="27.000" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>~DGEMMCannonPlace()</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/DGEMM/CANNONS/MASS/DGEMMCannonPlace.cpp" line="55" />
+</extent>
+<lines_of_code value="9" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="2" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+</procedural_detail>
+<structural_detail>
+<module>
+<name>DGEMMCannonPlace</name>
+<client_module>
+</client_module>
+<supplier_module>
+<name>uint64_t</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/DGEMM/CANNONS/MASS/DGEMMCannonPlace.cpp" line="98" />
+</extent>
+</supplier_module>
+</module>
+</structural_detail>
+</CCCC_Project>

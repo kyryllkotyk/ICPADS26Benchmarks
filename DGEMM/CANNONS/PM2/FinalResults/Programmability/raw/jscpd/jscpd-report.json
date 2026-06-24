@@ -1,0 +1,76 @@
+{
+  "statistics": {
+    "detectionDate": "2026-05-28T20:11:04.130Z",
+    "formats": {
+      "c-header": {
+        "sources": {
+          "/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/DGEMM/CANNONS/PM2/pm2dgemmCANNONS.h": {
+            "lines": 84,
+            "tokens": 391,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 84,
+          "tokens": 391,
+          "sources": 1,
+          "clones": 0,
+          "duplicatedLines": 0,
+          "duplicatedTokens": 0,
+          "percentage": 0,
+          "percentageTokens": 0,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      },
+      "cpp": {
+        "sources": {
+          "/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/DGEMM/CANNONS/PM2/pm2dgemmCANNONS.cpp": {
+            "lines": 733,
+            "tokens": 4840,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 733,
+          "tokens": 4840,
+          "sources": 1,
+          "clones": 0,
+          "duplicatedLines": 0,
+          "duplicatedTokens": 0,
+          "percentage": 0,
+          "percentageTokens": 0,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      }
+    },
+    "total": {
+      "lines": 817,
+      "tokens": 5231,
+      "sources": 2,
+      "clones": 0,
+      "duplicatedLines": 0,
+      "duplicatedTokens": 0,
+      "percentage": 0,
+      "percentageTokens": 0,
+      "newDuplicatedLines": 0,
+      "newClones": 0
+    }
+  },
+  "duplicates": []
+}

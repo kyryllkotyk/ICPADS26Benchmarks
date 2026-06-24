@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Detailed report on module anonymous-->
+<CCCC_Project>
+<module_summary>
+<lines_of_code value="971" level="1" />
+<lines_of_code_per_member_function value="******" level="0" />
+<McCabes_cyclomatic_complexity value="72" level="0" />
+<McCabes_cyclomatic_complexity_per_member_function value="******" level="2" />
+<lines_of_code value="66" level="0" />
+<lines_of_code_per_member_function value="********" level="2" />
+<lines_of_code_per_line_of_comment value="14.712" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="1.091" level="0" />
+<weighted_methods_per_class_unity value="17" level="0" />
+<weighted_methods_per_class_visibility value="17" level="0" />
+<depth_of_inheritance_tree value="0" level="0" />
+<number_of_children value="0" level="0" />
+<coupling_between_objects value="0" level="0" />
+<IF4 value="0" level="0" />
+<IF4_per_member_function value="********" level="0" />
+<IF4_visible value="0" level="0" />
+<IF4_visible_per_member_function value="********" level="0" />
+<IF4_concrete value="0" level="0" />
+<IF4_concrete_per_member_function value="********" level="0" />
+</module_summary>
+<module_detail>
+</module_detail>
+<procedural_detail>
+<member_function>
+<name>computeBoundaryStencil6Slabs(...)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/PM2/pm2heat3d.cpp" line="674" />
+</extent>
+<lines_of_code value="96" level="1" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="8" level="0" />
+<lines_of_code_per_line_of_comment value="12.000" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>computeFullStencil(...)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/PM2/pm2heat3d.cpp" line="784" />
+</extent>
+<lines_of_code value="26" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="2" level="0" />
+<lines_of_code_per_line_of_comment value="13.000" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>computeInteriorStencil(...)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/PM2/pm2heat3d.cpp" line="645" />
+</extent>
+<lines_of_code value="26" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="2" level="0" />
+<lines_of_code_per_line_of_comment value="13.000" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>computeLocalChecksum(const vector &amp;,const int,const int,const int,const int,const int)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/PM2/pm2heat3d.cpp" line="1008" />
+</extent>
+<lines_of_code value="21" level="0" />
+<McCabes_cyclomatic_complexity value="4" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="21.000" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>computeStencilBox(...)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/PM2/pm2heat3d.cpp" line="594" />
+</extent>
+<lines_of_code value="45" level="1" />
+<McCabes_cyclomatic_complexity value="7" level="0" />
+<lines_of_comment value="2" level="0" />
+<lines_of_code_per_line_of_comment value="22.500" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="3.500" level="0" />
+</member_function>
+<member_function>
+<name>createPersistentRequests(...)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/PM2/pm2heat3d.cpp" line="175" />
+</extent>
+<lines_of_code value="62" level="1" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="2" level="0" />
+<lines_of_code_per_line_of_comment value="31.000" level="2" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>doTimestepOverlap(...)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/PM2/pm2heat3d.cpp" line="813" />
+</extent>
+<lines_of_code value="93" level="1" />
+<McCabes_cyclomatic_complexity value="2" level="0" />
+<lines_of_comment value="7" level="0" />
+<lines_of_code_per_line_of_comment value="13.286" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>doTimestepSerial(...)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/PM2/pm2heat3d.cpp" line="926" />
+</extent>
+<lines_of_code value="70" level="1" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="3" level="0" />
+<lines_of_code_per_line_of_comment value="23.333" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>freePersistentRequests(...)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/PM2/pm2heat3d.cpp" line="247" />
+</extent>
+<lines_of_code value="10" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="2" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>hasValidLocalBlock(const int,const int,const int)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/PM2/pm2heat3d.cpp" line="1207" />
+</extent>
+<lines_of_code value="9" level="0" />
+<McCabes_cyclomatic_complexity value="3" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>initSendRecvPair(...)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/PM2/pm2heat3d.cpp" line="131" />
+</extent>
+<lines_of_code value="37" level="1" />
+<McCabes_cyclomatic_complexity value="2" level="0" />
+<lines_of_comment value="2" level="0" />
+<lines_of_code_per_line_of_comment value="18.500" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>initializeHaloBuffers(HaloBuffers &amp;,const NeighborRanks &amp;,const int,const int,const int)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/PM2/pm2heat3d.cpp" line="79" />
+</extent>
+<lines_of_code value="44" level="1" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="2" level="0" />
+<lines_of_code_per_line_of_comment value="22.000" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>overlapIsBeneficial(const int,const int,const int)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/PM2/pm2heat3d.cpp" line="1219" />
+</extent>
+<lines_of_code value="9" level="0" />
+<McCabes_cyclomatic_complexity value="3" level="0" />
+<lines_of_comment value="2" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>packFacesOrApplyBoundaries(double *,HaloBuffers &amp;,const NeighborRanks &amp;,const int,const int,const int,const int,const int)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/PM2/pm2heat3d.cpp" line="260" />
+</extent>
+<lines_of_code value="163" level="2" />
+<McCabes_cyclomatic_complexity value="22" level="1" />
+<lines_of_comment value="14" level="0" />
+<lines_of_code_per_line_of_comment value="11.643" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="1.571" level="0" />
+</member_function>
+<member_function>
+<name>reduceAndPrintRun(const int,const int,const int,const int,const int,const int,const int,const int,const int,const int,const int,const double,const double,const bool,const double,const double,const double,const double)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/PM2/pm2heat3d.cpp" line="1034" />
+</extent>
+<lines_of_code value="145" level="2" />
+<McCabes_cyclomatic_complexity value="10" level="0" />
+<lines_of_comment value="6" level="0" />
+<lines_of_code_per_line_of_comment value="24.167" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="1.667" level="0" />
+</member_function>
+<member_function>
+<name>resizeHaloBufferPair(vector &amp;,vector &amp;,const int,const int)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/PM2/pm2heat3d.cpp" line="50" />
+</extent>
+<lines_of_code value="22" level="0" />
+<McCabes_cyclomatic_complexity value="2" level="0" />
+<lines_of_comment value="2" level="0" />
+<lines_of_code_per_line_of_comment value="11.000" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>unpackFaces(double *,const HaloBuffers &amp;,const NeighborRanks &amp;,const int,const int,const int,const int,const int)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/PM2/pm2heat3d.cpp" line="470" />
+</extent>
+<lines_of_code value="93" level="1" />
+<McCabes_cyclomatic_complexity value="14" level="1" />
+<lines_of_comment value="8" level="0" />
+<lines_of_code_per_line_of_comment value="11.625" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="1.750" level="0" />
+</member_function>
+</procedural_detail>
+<structural_detail>
+<module>
+<name>anonymous</name>
+<client_module>
+</client_module>
+<supplier_module>
+</supplier_module>
+</module>
+</structural_detail>
+</CCCC_Project>

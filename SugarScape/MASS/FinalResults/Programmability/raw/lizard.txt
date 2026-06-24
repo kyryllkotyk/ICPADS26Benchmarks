@@ -1,0 +1,85 @@
+================================================
+  NLOC    CCN   token  PARAM  length  location  
+------------------------------------------------
+      16      3     62      3      19 rankForRow@14-32@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.cpp
+       9      1     32      3      10 firstRowForChunk@35-44@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.cpp
+      13      1     47      3      14 endRowForChunk@47-60@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.cpp
+      23      9     95      4      28 directionIndexOf@63-90@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.cpp
+      56      4    234      6      61 sugarCapacityAt@93-153@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.cpp
+       8      1     15      1       8 instantiate@156-163@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.cpp
+       6      1     11      1       6 destroy@166-171@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.cpp
+      72      1    134      1      72 SugarChunk::SugarChunk@173-244@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.cpp
+      19      4     56      0      21 SugarChunk::ensureOutMessage@258-278@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.cpp
+      13      1     54      1      14 SugarChunk::resetOutMessageHeader@281-294@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.cpp
+       7      2     21      1       7 SugarChunk::ownsRow@297-303@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.cpp
+      10      1     20      1      10 SugarChunk::ownerChunkOfRow@306-315@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.cpp
+      16      2     41      2      17 SugarChunk::getOccupantAt@318-334@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.cpp
+      17      2     42      3      18 SugarChunk::setOccupantAt@337-354@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.cpp
+      11      1     22      2      11 SugarChunk::clearOccupantAt@357-367@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.cpp
+      21      5     82      0      22 SugarChunk::rebuildOccupantIndex@370-391@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.cpp
+     124      8    461      1     149 SugarChunk::init@394-542@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.cpp
+      38      6    138      1      45 SugarChunk::seedInitialAgents@545-589@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.cpp
+       6      1     12      0       6 SugarChunk::redistributeSeedAgents@592-597@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.cpp
+      27      4     61      1      28 SugarChunk::markSugarGrowing@600-627@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.cpp
+      28      2     66      1      28 SugarChunk::touchConflictCell@630-657@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.cpp
+      36      5    142      0      42 SugarChunk::growSugar@660-701@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.cpp
+      52      5    190      0      64 SugarChunk::packHaloSugar@704-767@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.cpp
+     124     23    630      6     150 SugarChunk::computeTargetFor@770-919@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.cpp
+     130     10    492      0     150 SugarChunk::computeTargets@922-1071@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.cpp
+      83      6    328      0      97 SugarChunk::packMoveCandidates@1074-1170@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.cpp
+     266     26    933      0     311 SugarChunk::resolveConflictsLocal@1173-1483@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.cpp
+      43      3    154      0      50 SugarChunk::packWinnerReplies@1486-1535@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.cpp
+     148     18    607      0     171 SugarChunk::applyMovesAndTakeSugar@1538-1708@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.cpp
+      12      1     27      1      12 agentsBufferCapacity@1711-1722@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.cpp
+      79      6    269      0      95 SugarChunk::packMigrations@1725-1819@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.cpp
+     110     10    420      0     136 SugarChunk::integrateMigrations@1822-1957@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.cpp
+      28      5    104      0      34 SugarChunk::takeSugarAtCurrent@1960-1993@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.cpp
+      34      4    106      0      39 SugarChunk::metabolismAndDeath@1996-2034@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.cpp
+      16      1     54      0      17 SugarChunk::sortLocalAgents@2037-2053@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.cpp
+      13      2     42      1      16 SugarChunk::setTimestep@2056-2071@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.cpp
+      13      2     33      0      14 SugarChunk::advanceTimestep@2074-2087@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.cpp
+      23      5    113      0      29 SugarChunk::reportStats@2090-2118@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.cpp
+       9      1     27      0      10 SugarChunk::reportAgentsCount@2121-2130@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.cpp
+      60      4    181      0      68 SugarChunk::reportAgents@2133-2200@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.cpp
+      39      4    140      0      45 SugarChunk::reportSugar@2203-2247@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.cpp
+       9      1     57      1       9 SugarXoshiro256::splitmix64@36-44@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.h
+       6      1     31      2       6 SugarXoshiro256::rotateLeft@46-51@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.h
+       9      2     33      1       9 SugarXoshiro256::SugarXoshiro256@53-61@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.h
+      17      1    100      0      19 SugarXoshiro256::next@63-81@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.h
+      15      3     73      2      18 SugarXoshiro256::nextInRange@83-100@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.h
+       5      1     13      1       5 SugarChunk::globalRowOf@285-289@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.h
+       5      1     13      1       5 SugarChunk::localRowOf@291-295@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.h
+      24      1    130      4      28 MASSsugarscapeBenchmark::computeOutMessageBytes@28-55@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/MASSsugarscape.cpp
+      23      3     91      3      26 MASSsugarscapeBenchmark::computeMaxAgentsPerChunk@57-82@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/MASSsugarscape.cpp
+      34      4    218      5      39 MASSsugarscapeBenchmark::gatherSugarGrid@84-122@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/MASSsugarscape.cpp
+      54      5    250      4      62 MASSsugarscapeBenchmark::gatherAgents@124-185@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/MASSsugarscape.cpp
+      90      5    329      7     100 MASSsugarscapeBenchmark::writeCsvAt@187-286@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/MASSsugarscape.cpp
+      92      8    470      3     106 MASSsugarscapeBenchmark::buildSeedPayload@288-393@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/MASSsugarscape.cpp
+      68      2    157      3      71 MASSsugarscapeBenchmark::makeTimestepConfig@395-465@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/MASSsugarscape.cpp
+      48      3    170      1      54 MASSsugarscapeBenchmark::writeMetadataCsv@467-520@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/MASSsugarscape.cpp
+      44      3    140      4      49 MASSsugarscapeBenchmark::writeSummaryCsv@522-570@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/MASSsugarscape.cpp
+      89     17    345      6      97 MASSsugarscapeBenchmark::parseAndValidateArgs@572-668@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/MASSsugarscape.cpp
+     253     14   1030      1     289 MASSsugarscapeBenchmark::run@670-958@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/MASSsugarscape.cpp
+       9      1     23      1       9 runSugarScapeBenchmark@960-968@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/MASSsugarscape.cpp
+4 file analyzed.
+==============================================================
+NLOC    Avg.NLOC  AvgCCN  Avg.token  function_cnt    file
+--------------------------------------------------------------
+   1875      45.3     4.9      163.4        41     /home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.cpp
+     89       0.0     0.0        0.0         0     /home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/MASSsugarscape.h
+    308       9.4     1.4       45.7         7     /home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.h
+    852      69.0     5.5      279.4        12     /home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/MASSsugarscape.cpp
+
+===========================================================================================================
+!!!! Warnings (cyclomatic_complexity > 15 or length > 1000 or nloc > 1000000 or parameter_count > 100) !!!!
+================================================
+  NLOC    CCN   token  PARAM  length  location  
+------------------------------------------------
+     124     23    630      6     150 SugarChunk::computeTargetFor@770-919@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.cpp
+     266     26    933      0     311 SugarChunk::resolveConflictsLocal@1173-1483@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.cpp
+     148     18    607      0     171 SugarChunk::applyMovesAndTakeSugar@1538-1708@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.cpp
+      89     17    345      6      97 MASSsugarscapeBenchmark::parseAndValidateArgs@572-668@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/MASSsugarscape.cpp
+==========================================================================================
+Total nloc   Avg.NLOC  AvgCCN  Avg.token   Fun Cnt  Warning cnt   Fun Rt   nloc Rt
+------------------------------------------------------------------------------------------
+      3124      45.9     4.6      172.8       60            4      0.07    0.23

@@ -1,0 +1,77 @@
+CCCC_Module@Heat3DConfig@struct@
+CCCC_ModExt@Heat3DConfig@struct@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/MASS/Heat3DPlace.h@34@definition@????0@LOC:11 COM:13 MVG:0@0@d@
+CCCC_Module@Heat3DPlace@class@
+CCCC_ModExt@Heat3DPlace@class@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/MASS/Heat3DPlace.h@47@definition@F???0@LOC:57 COM:8 MVG:0@0@d@
+CCCC_Module@Place@@
+CCCC_Module@anonymous@@
+CCCC_Module@char@builtin@
+CCCC_ModExt@char@builtin@<nofile>@0@builtin definition@d?????@@0@d@
+CCCC_Module@double@builtin@
+CCCC_ModExt@double@builtin@<nofile>@0@builtin definition@d?????@@0@d@
+CCCC_Module@float@builtin@
+CCCC_ModExt@float@builtin@<nofile>@0@builtin definition@d?????@@0@d@
+CCCC_Module@int@builtin@
+CCCC_ModExt@int@builtin@<nofile>@0@builtin definition@d?????@@0@d@
+CCCC_Module@long@builtin@
+CCCC_ModExt@long@builtin@<nofile>@0@builtin definition@d?????@@0@d@
+CCCC_Module@uint64_t@@
+CCCC_Module@void@builtin@
+CCCC_ModExt@void@builtin@<nofile>@0@builtin definition@d?????@@0@d@
+CCCC_Member@Heat3DPlace@Heat3DPlace@@(void *)@
+CCCC_MemExt@Heat3DPlace@Heat3DPlace@@(void *)@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/MASS/Heat3DPlace.h@50@declaration@F???0@LOC:3 COM:0 MVG:0@0@D@
+CCCC_MemExt@Heat3DPlace@Heat3DPlace@@(void *)@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/MASS/Heat3DPlace.cpp@126@definition@F????@LOC:103 COM:1 MVG:0@?@d@
+CCCC_Member@Heat3DPlace@allocateOutMessage@@()@
+CCCC_MemExt@Heat3DPlace@allocateOutMessage@@()@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/MASS/Heat3DPlace.cpp@344@definition@F????@LOC:42 COM:3 MVG:2@?@d@
+CCCC_Member@Heat3DPlace@applyNeumann@@()@
+CCCC_MemExt@Heat3DPlace@applyNeumann@@()@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/MASS/Heat3DPlace.cpp@793@definition@F????@LOC:92 COM:1 MVG:18@?@d@
+CCCC_Member@Heat3DPlace@collectChecksum@@(void *)@
+CCCC_MemExt@Heat3DPlace@collectChecksum@@(void *)@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/MASS/Heat3DPlace.cpp@1004@definition@F????@LOC:19 COM:1 MVG:4@?@d@
+CCCC_Member@Heat3DPlace@computeStep@@(void *)@
+CCCC_MemExt@Heat3DPlace@computeStep@@(void *)@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/MASS/Heat3DPlace.cpp@950@definition@F????@LOC:42 COM:2 MVG:4@?@d@
+CCCC_Member@Heat3DPlace@directionFromSenderDelta@@(const int,const int,const int)@
+CCCC_MemExt@Heat3DPlace@directionFromSenderDelta@@(const int,const int,const int)@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/MASS/Heat3DPlace.cpp@254@definition@T????@LOC:40 COM:1 MVG:19@?@d@
+CCCC_Member@Heat3DPlace@idx@@(const int,const int,const int)@
+CCCC_MemExt@Heat3DPlace@idx@@(const int,const int,const int)@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/MASS/Heat3DPlace.cpp@245@definition@T????@LOC:7 COM:1 MVG:1@?@d@
+CCCC_Member@Heat3DPlace@init@@(void *)@
+CCCC_MemExt@Heat3DPlace@init@@(void *)@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/MASS/Heat3DPlace.cpp@398@definition@F????@LOC:162 COM:8 MVG:9@?@d@
+CCCC_Member@Heat3DPlace@packAllFaces@@()@
+CCCC_MemExt@Heat3DPlace@packAllFaces@@()@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/MASS/Heat3DPlace.cpp@598@definition@F????@LOC:74 COM:7 MVG:12@?@d@
+CCCC_Member@Heat3DPlace@packFaces@@(void *)@
+CCCC_MemExt@Heat3DPlace@packFaces@@(void *)@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/MASS/Heat3DPlace.cpp@892@definition@F????@LOC:7 COM:1 MVG:1@?@d@
+CCCC_Member@Heat3DPlace@reInit@@(void *)@
+CCCC_MemExt@Heat3DPlace@reInit@@(void *)@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/MASS/Heat3DPlace.cpp@1028@definition@F????@LOC:8 COM:2 MVG:1@?@d@
+CCCC_Member@Heat3DPlace@recvHalo@@(void *)@
+CCCC_MemExt@Heat3DPlace@recvHalo@@(void *)@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/MASS/Heat3DPlace.cpp@903@definition@F????@LOC:38 COM:2 MVG:6@?@d@
+CCCC_Member@Heat3DPlace@seedLocalGrid@@()@
+CCCC_MemExt@Heat3DPlace@seedLocalGrid@@()@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/MASS/Heat3DPlace.cpp@302@definition@F????@LOC:32 COM:3 MVG:3@?@d@
+CCCC_Member@Heat3DPlace@unpackOneFace@@(const int,const double *)@
+CCCC_MemExt@Heat3DPlace@unpackOneFace@@(const int,const double *)@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/MASS/Heat3DPlace.cpp@693@definition@F????@LOC:89 COM:2 MVG:23@?@d@
+CCCC_Member@Heat3DPlace@~Heat3DPlace@@()@
+CCCC_MemExt@Heat3DPlace@~Heat3DPlace@@()@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/MASS/Heat3DPlace.cpp@233@definition@F????@LOC:8 COM:1 MVG:1@?@d@
+CCCC_Member@anonymous@allocateOutMessage@@()@
+CCCC_MemExt@anonymous@allocateOutMessage@@()@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/MASS/Heat3DPlace.h@135@declaration@F???0@LOC:1 COM:1 MVG:0@0@D@
+CCCC_Member@anonymous@applyNeumann@@()@
+CCCC_MemExt@anonymous@applyNeumann@@()@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/MASS/Heat3DPlace.h@147@declaration@F???0@LOC:1 COM:1 MVG:0@0@D@
+CCCC_Member@anonymous@computeLocal@@(int &,int &,const int,const int,const int)@
+CCCC_MemExt@anonymous@computeLocal@@(int &,int &,const int,const int,const int)@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/MASS/Heat3DPlace.cpp@73@definition@F????@LOC:19 COM:1 MVG:1@?@d@
+CCCC_Member@anonymous@destroy@@(Place *)@
+CCCC_MemExt@anonymous@destroy@@(Place *)@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/MASS/Heat3DPlace.cpp@26@definition@F????@LOC:5 COM:1 MVG:0@?@d@
+CCCC_Member@anonymous@directionFromSenderDelta@@(const int,const int,const int)@
+CCCC_MemExt@anonymous@directionFromSenderDelta@@(const int,const int,const int)@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/MASS/Heat3DPlace.h@150@declaration@T???0@LOC:5 COM:1 MVG:0@0@D@
+CCCC_Member@anonymous@faceLayout@@(...)@
+CCCC_MemExt@anonymous@faceLayout@@(...)@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/MASS/Heat3DPlace.cpp@96@definition@F????@LOC:22 COM:4 MVG:1@?@d@
+CCCC_Member@anonymous@idx@@(const int,const int,const int)@
+CCCC_MemExt@anonymous@idx@@(const int,const int,const int)@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/MASS/Heat3DPlace.h@125@declaration@T???0@LOC:5 COM:1 MVG:0@0@D@
+CCCC_Member@anonymous@instantiate@@(void *)@
+CCCC_MemExt@anonymous@instantiate@@(void *)@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/MASS/Heat3DPlace.cpp@17@definition@F????@LOC:7 COM:12 MVG:1@?@d@
+CCCC_Member@anonymous@packAllFaces@@()@
+CCCC_MemExt@anonymous@packAllFaces@@()@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/MASS/Heat3DPlace.h@138@declaration@F???0@LOC:1 COM:1 MVG:0@0@D@
+CCCC_Member@anonymous@seedLocalGrid@@()@
+CCCC_MemExt@anonymous@seedLocalGrid@@()@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/MASS/Heat3DPlace.h@132@declaration@F???0@LOC:1 COM:1 MVG:0@0@D@
+CCCC_Member@anonymous@unpackOneFace@@(const int,const double *)@
+CCCC_MemExt@anonymous@unpackOneFace@@(const int,const double *)@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/MASS/Heat3DPlace.h@141@declaration@F???0@LOC:4 COM:1 MVG:0@0@D@
+CCCC_Member@anonymous@valueAt@@(const uint64_t,const int,const int,const int,const double,const double)@
+CCCC_MemExt@anonymous@valueAt@@(const uint64_t,const int,const int,const int,const double,const double)@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/MASS/Heat3DPlace.cpp@35@definition@F????@LOC:30 COM:1 MVG:1@?@d@
+CCCC_UseRel@Place@Heat3DPlace@
+CCCC_UseExt@Place@Heat3DPlace@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/MASS/Heat3DPlace.h@47@inheritance@????0@*@0@I@
+CCCC_RejExt@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/MASS/Heat3DPlace.cpp@1@<file scope items>@F????@LOC:4 COM:1 MVG:0@?@r@

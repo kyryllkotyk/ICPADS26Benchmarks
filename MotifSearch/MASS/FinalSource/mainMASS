@@ -1,0 +1,14 @@
+#include "MASSmotifsearch.h"
+
+int main(
+    int argc,
+    char* argv[]
+) {
+    // Keep launcher separate from benchmark implementation logic
+    MASS_MotifSearch benchmark;
+
+    return benchmark.run(
+        argc,
+        argv
+    );
+}

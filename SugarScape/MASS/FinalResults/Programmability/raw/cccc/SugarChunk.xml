@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Detailed report on module SugarChunk-->
+<CCCC_Project>
+<module_summary>
+<lines_of_code value="1824" level="1" />
+<lines_of_code_per_member_function value="******" level="0" />
+<McCabes_cyclomatic_complexity value="190" level="0" />
+<McCabes_cyclomatic_complexity_per_member_function value="******" level="2" />
+<lines_of_code value="90" level="0" />
+<lines_of_code_per_member_function value="********" level="2" />
+<lines_of_code_per_line_of_comment value="20.267" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="2.111" level="0" />
+<weighted_methods_per_class_unity value="33" level="0" />
+<weighted_methods_per_class_visibility value="1" level="0" />
+<depth_of_inheritance_tree value="1" level="0" />
+<number_of_children value="0" level="0" />
+<coupling_between_objects value="2" level="0" />
+<IF4 value="0" level="0" />
+<IF4_per_member_function value="********" level="0" />
+<IF4_visible value="0" level="0" />
+<IF4_visible_per_member_function value="********" level="0" />
+<IF4_concrete value="0" level="0" />
+<IF4_concrete_per_member_function value="********" level="0" />
+</module_summary>
+<module_detail>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.h" line="158" />
+<lines_of_code value="107" level="2" />
+<McCabes_cyclomatic_complexity value="2" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="******" level="2" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</module_detail>
+<procedural_detail>
+<member_function>
+<name>SugarChunk(void *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.cpp" line="173" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.h" line="160" />
+</extent>
+<lines_of_code value="75" level="1" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="******" level="2" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>advanceTimestep(void *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.cpp" line="2074" />
+</extent>
+<lines_of_code value="13" level="0" />
+<McCabes_cyclomatic_complexity value="2" level="0" />
+<lines_of_comment value="2" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>applyMovesAndTakeSugar(void *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.cpp" line="1538" />
+</extent>
+<lines_of_code value="148" level="2" />
+<McCabes_cyclomatic_complexity value="18" level="1" />
+<lines_of_comment value="6" level="0" />
+<lines_of_code_per_line_of_comment value="24.667" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="3.000" level="0" />
+</member_function>
+<member_function>
+<name>clearOccupantAt(int,int)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.cpp" line="357" />
+</extent>
+<lines_of_code value="11" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>computeTargetFor(const AgentRec &amp;,const vector &amp;,int,int,int &amp;,int &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.cpp" line="770" />
+</extent>
+<lines_of_code value="124" level="2" />
+<McCabes_cyclomatic_complexity value="28" level="1" />
+<lines_of_comment value="5" level="0" />
+<lines_of_code_per_line_of_comment value="24.800" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="5.600" level="1" />
+</member_function>
+<member_function>
+<name>computeTargets(void *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.cpp" line="922" />
+</extent>
+<lines_of_code value="130" level="2" />
+<McCabes_cyclomatic_complexity value="10" level="0" />
+<lines_of_comment value="6" level="0" />
+<lines_of_code_per_line_of_comment value="21.667" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="1.667" level="0" />
+</member_function>
+<member_function>
+<name>ensureOutMessage()</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.cpp" line="258" />
+</extent>
+<lines_of_code value="19" level="0" />
+<McCabes_cyclomatic_complexity value="3" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>getOccupantAt(int,int)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.cpp" line="318" />
+</extent>
+<lines_of_code value="16" level="0" />
+<McCabes_cyclomatic_complexity value="3" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>growSugar(void *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.cpp" line="660" />
+</extent>
+<lines_of_code value="36" level="1" />
+<McCabes_cyclomatic_complexity value="6" level="0" />
+<lines_of_comment value="3" level="0" />
+<lines_of_code_per_line_of_comment value="12.000" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="2.000" level="0" />
+</member_function>
+<member_function>
+<name>init(void *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.cpp" line="394" />
+</extent>
+<lines_of_code value="124" level="2" />
+<McCabes_cyclomatic_complexity value="9" level="0" />
+<lines_of_comment value="8" level="0" />
+<lines_of_code_per_line_of_comment value="15.500" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="1.125" level="0" />
+</member_function>
+<member_function>
+<name>integrateMigrations(void *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.cpp" line="1822" />
+</extent>
+<lines_of_code value="110" level="2" />
+<McCabes_cyclomatic_complexity value="12" level="1" />
+<lines_of_comment value="5" level="0" />
+<lines_of_code_per_line_of_comment value="22.000" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="2.400" level="0" />
+</member_function>
+<member_function>
+<name>markSugarGrowing(int)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.cpp" line="600" />
+</extent>
+<lines_of_code value="27" level="0" />
+<McCabes_cyclomatic_complexity value="4" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="27.000" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>metabolismAndDeath(void *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.cpp" line="1996" />
+</extent>
+<lines_of_code value="34" level="1" />
+<McCabes_cyclomatic_complexity value="4" level="0" />
+<lines_of_comment value="2" level="0" />
+<lines_of_code_per_line_of_comment value="17.000" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>ownerChunkOfRow(int)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.cpp" line="306" />
+</extent>
+<lines_of_code value="10" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>ownsRow(int)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.cpp" line="297" />
+</extent>
+<lines_of_code value="7" level="0" />
+<McCabes_cyclomatic_complexity value="2" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>packHaloSugar(void *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.cpp" line="704" />
+</extent>
+<lines_of_code value="52" level="1" />
+<McCabes_cyclomatic_complexity value="5" level="0" />
+<lines_of_comment value="5" level="0" />
+<lines_of_code_per_line_of_comment value="10.400" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="1.000" level="0" />
+</member_function>
+<member_function>
+<name>packMigrations(void *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.cpp" line="1725" />
+</extent>
+<lines_of_code value="79" level="1" />
+<McCabes_cyclomatic_complexity value="6" level="0" />
+<lines_of_comment value="4" level="0" />
+<lines_of_code_per_line_of_comment value="19.750" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="1.500" level="0" />
+</member_function>
+<member_function>
+<name>packMoveCandidates(void *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.cpp" line="1074" />
+</extent>
+<lines_of_code value="83" level="1" />
+<McCabes_cyclomatic_complexity value="6" level="0" />
+<lines_of_comment value="3" level="0" />
+<lines_of_code_per_line_of_comment value="27.667" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="2.000" level="0" />
+</member_function>
+<member_function>
+<name>packWinnerReplies(void *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.cpp" line="1486" />
+</extent>
+<lines_of_code value="43" level="1" />
+<McCabes_cyclomatic_complexity value="3" level="0" />
+<lines_of_comment value="3" level="0" />
+<lines_of_code_per_line_of_comment value="14.333" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>rebuildOccupantIndex()</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.cpp" line="370" />
+</extent>
+<lines_of_code value="21" level="0" />
+<McCabes_cyclomatic_complexity value="4" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="21.000" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>redistributeSeedAgents(void *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.cpp" line="592" />
+</extent>
+<lines_of_code value="6" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="2" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>reportAgents(void *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.cpp" line="2133" />
+</extent>
+<lines_of_code value="60" level="1" />
+<McCabes_cyclomatic_complexity value="5" level="0" />
+<lines_of_comment value="3" level="0" />
+<lines_of_code_per_line_of_comment value="20.000" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="1.667" level="0" />
+</member_function>
+<member_function>
+<name>reportAgentsCount(void *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.cpp" line="2121" />
+</extent>
+<lines_of_code value="9" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="2" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>reportStats(void *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.cpp" line="2090" />
+</extent>
+<lines_of_code value="23" level="0" />
+<McCabes_cyclomatic_complexity value="5" level="0" />
+<lines_of_comment value="2" level="0" />
+<lines_of_code_per_line_of_comment value="11.500" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="2.500" level="0" />
+</member_function>
+<member_function>
+<name>reportSugar(void *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.cpp" line="2203" />
+</extent>
+<lines_of_code value="38" level="1" />
+<McCabes_cyclomatic_complexity value="4" level="0" />
+<lines_of_comment value="3" level="0" />
+<lines_of_code_per_line_of_comment value="12.667" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>resetOutMessageHeader(int)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.cpp" line="281" />
+</extent>
+<lines_of_code value="13" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>resolveConflictsLocal(void *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.cpp" line="1173" />
+</extent>
+<lines_of_code value="266" level="2" />
+<McCabes_cyclomatic_complexity value="26" level="1" />
+<lines_of_comment value="9" level="0" />
+<lines_of_code_per_line_of_comment value="29.556" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="2.889" level="0" />
+</member_function>
+<member_function>
+<name>seedInitialAgents(void *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.cpp" line="545" />
+</extent>
+<lines_of_code value="38" level="1" />
+<McCabes_cyclomatic_complexity value="7" level="0" />
+<lines_of_comment value="2" level="0" />
+<lines_of_code_per_line_of_comment value="19.000" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="3.500" level="0" />
+</member_function>
+<member_function>
+<name>setOccupantAt(int,int,int)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.cpp" line="337" />
+</extent>
+<lines_of_code value="17" level="0" />
+<McCabes_cyclomatic_complexity value="2" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>setTimestep(void *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.cpp" line="2056" />
+</extent>
+<lines_of_code value="13" level="0" />
+<McCabes_cyclomatic_complexity value="3" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>sortLocalAgents(void *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.cpp" line="2037" />
+</extent>
+<lines_of_code value="16" level="0" />
+<McCabes_cyclomatic_complexity value="2" level="0" />
+<lines_of_comment value="2" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>takeSugarAtCurrent(void *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.cpp" line="1960" />
+</extent>
+<lines_of_code value="28" level="0" />
+<McCabes_cyclomatic_complexity value="5" level="0" />
+<lines_of_comment value="2" level="0" />
+<lines_of_code_per_line_of_comment value="14.000" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="2.500" level="0" />
+</member_function>
+<member_function>
+<name>touchConflictCell(int)</name>
+<extent>
+<description>definition</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.cpp" line="630" />
+</extent>
+<lines_of_code value="28" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="28.000" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+</procedural_detail>
+<structural_detail>
+<module>
+<name>SugarChunk</name>
+<client_module>
+</client_module>
+<supplier_module>
+<name>Place</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>inheritance</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.h" line="158" />
+</extent>
+<name>vector</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/MASS/SugarChunk.cpp" line="772" />
+</extent>
+</supplier_module>
+</module>
+</structural_detail>
+</CCCC_Project>

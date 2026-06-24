@@ -1,0 +1,11 @@
+Clone found (cpp):
+ - [1m[32mDGEMM/SUMMA/MASS/DGEMMPlace.cpp[39m[22m [279:29 - 295:40] (16 lines, 114 tokens)
+   [1m[32mDGEMM/SUMMA/MASS/DGEMMPlace.cpp[39m[22m [248:29 - 264:45]
+
+[32mJSON report saved to /home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/ProgrammabilityMetricsOutput/DGEMM_SUMMA/MASS/raw/jscpd/jscpd-report.json[39m
+[32mMarkdown report saved to /home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/ProgrammabilityMetricsOutput/DGEMM_SUMMA/MASS/raw/jscpd/jscpd-report.md[39m
+[3m[90mtime[39m[23m: 223.496ms
+
+[90m💡 Auto-refactor with AI: npx skills add kucherenko/jscpd[39m
+[90m🎩 New: Gangsta Agents — discipline your AI coding → gangsta.page[39m
+[90m💖 Support jscpd project → https://opencollective.com/jscpd[39m

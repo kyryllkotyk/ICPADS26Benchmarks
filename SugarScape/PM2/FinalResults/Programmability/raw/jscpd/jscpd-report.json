@@ -1,0 +1,48 @@
+{
+  "statistics": {
+    "detectionDate": "2026-05-28T20:11:34.727Z",
+    "formats": {
+      "c-header": {
+        "sources": {
+          "/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/PM2/pm2sugarscape.h": {
+            "lines": 623,
+            "tokens": 4124,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 623,
+          "tokens": 4124,
+          "sources": 1,
+          "clones": 0,
+          "duplicatedLines": 0,
+          "duplicatedTokens": 0,
+          "percentage": 0,
+          "percentageTokens": 0,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      }
+    },
+    "total": {
+      "lines": 623,
+      "tokens": 4124,
+      "sources": 1,
+      "clones": 0,
+      "duplicatedLines": 0,
+      "duplicatedTokens": 0,
+      "percentage": 0,
+      "percentageTokens": 0,
+      "newDuplicatedLines": 0,
+      "newClones": 0
+    }
+  },
+  "duplicates": []
+}

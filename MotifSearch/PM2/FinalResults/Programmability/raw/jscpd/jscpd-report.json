@@ -1,0 +1,149 @@
+{
+  "statistics": {
+    "detectionDate": "2026-05-28T20:11:27.244Z",
+    "formats": {
+      "c-header": {
+        "sources": {
+          "/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/PM2/pm2motifsearch.h": {
+            "lines": 142,
+            "tokens": 837,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 142,
+          "tokens": 837,
+          "sources": 1,
+          "clones": 0,
+          "duplicatedLines": 0,
+          "duplicatedTokens": 0,
+          "percentage": 0,
+          "percentageTokens": 0,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      },
+      "cpp": {
+        "sources": {
+          "/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/PM2/pm2motifsearch.cpp": {
+            "lines": 788,
+            "tokens": 5762,
+            "sources": 1,
+            "clones": 4,
+            "duplicatedLines": 52,
+            "duplicatedTokens": 422,
+            "percentage": 6.6,
+            "percentageTokens": 7.32,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 788,
+          "tokens": 5762,
+          "sources": 1,
+          "clones": 2,
+          "duplicatedLines": 26,
+          "duplicatedTokens": 211,
+          "percentage": 3.3,
+          "percentageTokens": 3.66,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      }
+    },
+    "total": {
+      "lines": 930,
+      "tokens": 6599,
+      "sources": 2,
+      "clones": 2,
+      "duplicatedLines": 26,
+      "duplicatedTokens": 211,
+      "percentage": 2.8,
+      "percentageTokens": 3.2,
+      "newDuplicatedLines": 0,
+      "newClones": 0
+    }
+  },
+  "duplicates": [
+    {
+      "format": "cpp",
+      "lines": 16,
+      "fragment": ",\r\n            temporaryAdjacency[vertex].end()\r\n        );\r\n\r\n        graph.offsets[vertex + 1] = graph.offsets[vertex]\r\n            + static_cast<int64_t>(\r\n                temporaryAdjacency[vertex].size()\r\n            );\r\n    }\r\n\r\n    graph.edges = graph.offsets[verticesCount];\r\n    graph.adjacency.resize(\r\n        graph.edges\r\n    );\r\n\r\n    // Flatten normalized neighbor lists into CSR adjacency storage",
+      "tokens": 0,
+      "firstFile": {
+        "name": "MotifSearch/PM2/pm2motifsearch.cpp",
+        "start": 541,
+        "end": 556,
+        "startLoc": {
+          "line": 541,
+          "column": 24,
+          "position": 3890
+        },
+        "endLoc": {
+          "line": 556,
+          "column": 68,
+          "position": 4004
+        }
+      },
+      "secondFile": {
+        "name": "MotifSearch/PM2/pm2motifsearch.cpp",
+        "start": 408,
+        "end": 423,
+        "startLoc": {
+          "line": 408,
+          "column": 47,
+          "position": 2923
+        },
+        "endLoc": {
+          "line": 423,
+          "column": 64,
+          "position": 3037
+        }
+      }
+    },
+    {
+      "format": "cpp",
+      "lines": 12,
+      "fragment": "for (int vertex = 0; vertex < verticesCount; ++vertex) {\r\n        copy(\r\n            temporaryAdjacency[vertex].begin(),\r\n            temporaryAdjacency[vertex].end(),\r\n            graph.adjacency.begin() + graph.offsets[vertex]\r\n        );\r\n    }\r\n\r\n    return graph;\r\n}\r\n\r\nint",
+      "tokens": 0,
+      "firstFile": {
+        "name": "MotifSearch/PM2/pm2motifsearch.cpp",
+        "start": 557,
+        "end": 568,
+        "startLoc": {
+          "line": 557,
+          "column": 5,
+          "position": 4008
+        },
+        "endLoc": {
+          "line": 568,
+          "column": 4,
+          "position": 4105
+        }
+      },
+      "secondFile": {
+        "name": "MotifSearch/PM2/pm2motifsearch.cpp",
+        "start": 424,
+        "end": 435,
+        "startLoc": {
+          "line": 424,
+          "column": 5,
+          "position": 3041
+        },
+        "endLoc": {
+          "line": 435,
+          "column": 16,
+          "position": 3138
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+Clone found (cpp):
+ - [1m[32mMotifSearch/PM2/pm2motifsearch.cpp[39m[22m [541:24 - 556:68] (15 lines, 114 tokens)
+   [1m[32mMotifSearch/PM2/pm2motifsearch.cpp[39m[22m [408:47 - 423:64]
+
+Clone found (cpp):
+ - [1m[32mMotifSearch/PM2/pm2motifsearch.cpp[39m[22m [557:5 - 568:4] (11 lines, 97 tokens)
+   [1m[32mMotifSearch/PM2/pm2motifsearch.cpp[39m[22m [424:5 - 435:16]
+
+[32mJSON report saved to /home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/ProgrammabilityMetricsOutput/MotifSearch/PM2/raw/jscpd/jscpd-report.json[39m
+[32mMarkdown report saved to /home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/ProgrammabilityMetricsOutput/MotifSearch/PM2/raw/jscpd/jscpd-report.md[39m
+[3m[90mtime[39m[23m: 180.718ms
+
+[90m💡 Auto-refactor with AI: npx skills add kucherenko/jscpd[39m
+[90m🎩 New: Gangsta Agents — discipline your AI coding → gangsta.page[39m
+[90m💖 Support jscpd project → https://opencollective.com/jscpd[39m

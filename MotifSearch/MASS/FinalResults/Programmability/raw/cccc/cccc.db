@@ -1,0 +1,100 @@
+CCCC_Module@BacktrackSearch@struct@
+CCCC_ModExt@BacktrackSearch@struct@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearchMotifPlace.cpp@50@definition@FT??0@LOC:12 COM:1 MVG:0@0@d@
+CCCC_Module@CSRGraph@struct@
+CCCC_ModExt@CSRGraph@struct@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearch.h@67@definition@T???0@LOC:7 COM:3 MVG:0@0@d@
+CCCC_Module@MASS_MotifSearch@class@
+CCCC_ModExt@MASS_MotifSearch@class@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearch.h@37@definition@FT??2@LOC:5 COM:11 MVG:0@2@d@
+CCCC_Module@MotifPattern@struct@
+CCCC_ModExt@MotifPattern@struct@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearch.h@48@definition@T???0@LOC:7 COM:3 MVG:0@0@d@
+CCCC_Module@MotifSearchConfig@struct@
+CCCC_ModExt@MotifSearchConfig@struct@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearchMotifPlace.h@34@definition@????0@LOC:11 COM:15 MVG:0@0@d@
+CCCC_Module@RequiredTable@struct@
+CCCC_ModExt@RequiredTable@struct@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearchMotifPlace.h@51@definition@????0@LOC:3 COM:2 MVG:0@0@d@
+CCCC_Module@RunConfig@struct@
+CCCC_ModExt@RunConfig@struct@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearch.h@80@definition@T???0@LOC:9 COM:1 MVG:0@0@d@
+CCCC_Module@anonymous@@
+CCCC_Module@bool@@
+CCCC_Module@char@builtin@
+CCCC_ModExt@char@builtin@<nofile>@0@builtin definition@d?????@@0@d@
+CCCC_Module@double@builtin@
+CCCC_ModExt@double@builtin@<nofile>@0@builtin definition@d?????@@0@d@
+CCCC_Module@float@builtin@
+CCCC_ModExt@float@builtin@<nofile>@0@builtin definition@d?????@@0@d@
+CCCC_Module@int@builtin@
+CCCC_ModExt@int@builtin@<nofile>@0@builtin definition@d?????@@0@d@
+CCCC_Module@int64_t@@
+CCCC_Module@int8_t@@
+CCCC_Module@long@builtin@
+CCCC_ModExt@long@builtin@<nofile>@0@builtin definition@d?????@@0@d@
+CCCC_Module@string@@
+CCCC_Module@uint64_t@@
+CCCC_Module@unsigned@@
+CCCC_Module@vector@@
+CCCC_Module@void@builtin@
+CCCC_ModExt@void@builtin@<nofile>@0@builtin definition@d?????@@0@d@
+CCCC_Member@BacktrackSearch@afterLastNeighborOfVertex@@(const int)@
+CCCC_MemExt@BacktrackSearch@afterLastNeighborOfVertex@@(const int)@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearchMotifPlace.cpp@76@definition@TT???@LOC:5 COM:0 MVG:1@?@d@
+CCCC_Member@BacktrackSearch@degree@@(const int)@
+CCCC_MemExt@BacktrackSearch@degree@@(const int)@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearchMotifPlace.cpp@62@definition@TT???@LOC:7 COM:0 MVG:1@?@d@
+CCCC_Member@BacktrackSearch@firstNeighborOfVertex@@(const int)@
+CCCC_MemExt@BacktrackSearch@firstNeighborOfVertex@@(const int)@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearchMotifPlace.cpp@70@definition@TT???@LOC:5 COM:0 MVG:1@?@d@
+CCCC_Member@BacktrackSearch@hasEdge@@(const int,const int)@
+CCCC_MemExt@BacktrackSearch@hasEdge@@(const int,const int)@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearchMotifPlace.cpp@83@definition@TT???@LOC:14 COM:1 MVG:1@?@d@
+CCCC_Member@BacktrackSearch@pickPivot@@(const int,const int8_t *,const int,int &,int &)@
+CCCC_MemExt@BacktrackSearch@pickPivot@@(const int,const int8_t *,const int,int &,int &)@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearchMotifPlace.cpp@99@definition@TT???@LOC:24 COM:2 MVG:2@?@d@
+CCCC_Member@BacktrackSearch@runConnected@@(const int)@
+CCCC_MemExt@BacktrackSearch@runConnected@@(const int)@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearchMotifPlace.cpp@129@definition@FT???@LOC:66 COM:6 MVG:10@?@d@
+CCCC_Member@BacktrackSearch@runGeneral@@(const int)@
+CCCC_MemExt@BacktrackSearch@runGeneral@@(const int)@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearchMotifPlace.cpp@217@definition@FT???@LOC:80 COM:5 MVG:14@?@d@
+CCCC_Member@MASS_MotifSearch@buildChunkStarts@@(const CSRGraph &,int)@
+CCCC_MemExt@MASS_MotifSearch@buildChunkStarts@@(const CSRGraph &,int)@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearch.cpp@480@definition@FT???@LOC:25 COM:1 MVG:4@?@d@
+CCCC_MemExt@MASS_MotifSearch@buildChunkStarts@@(const CSRGraph &,int)@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearch.h@130@declaration@FT???@LOC:4 COM:1 MVG:0@?@D@
+CCCC_Member@MASS_MotifSearch@builtinMotifs@@()@
+CCCC_MemExt@MASS_MotifSearch@builtinMotifs@@()@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearch.cpp@396@definition@FT???@LOC:62 COM:0 MVG:1@?@d@
+CCCC_MemExt@MASS_MotifSearch@builtinMotifs@@()@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearch.h@127@declaration@FT???@LOC:1 COM:1 MVG:0@?@D@
+CCCC_Member@MASS_MotifSearch@computeAutomorphisms@@(const MotifPattern &)@
+CCCC_MemExt@MASS_MotifSearch@computeAutomorphisms@@(const MotifPattern &)@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearch.cpp@316@definition@FT???@LOC:42 COM:1 MVG:9@?@d@
+CCCC_MemExt@MASS_MotifSearch@computeAutomorphisms@@(const MotifPattern &)@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearch.h@115@declaration@FT???@LOC:3 COM:1 MVG:0@?@D@
+CCCC_Member@MASS_MotifSearch@generateErdosRenyi@@(const int,const double,const unsigned)@
+CCCC_MemExt@MASS_MotifSearch@generateErdosRenyi@@(const int,const double,const unsigned)@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearch.cpp@106@definition@FT???@LOC:62 COM:2 MVG:6@?@d@
+CCCC_MemExt@MASS_MotifSearch@generateErdosRenyi@@(const int,const double,const unsigned)@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearch.h@103@declaration@FT??0@LOC:5 COM:1 MVG:0@0@D@
+CCCC_Member@MASS_MotifSearch@loadGraphFromFile@@(const string &)@
+CCCC_MemExt@MASS_MotifSearch@loadGraphFromFile@@(const string &)@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearch.cpp@184@definition@FT???@LOC:105 COM:2 MVG:10@?@d@
+CCCC_MemExt@MASS_MotifSearch@loadGraphFromFile@@(const string &)@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearch.h@110@declaration@FT???@LOC:3 COM:1 MVG:0@?@D@
+CCCC_Member@MASS_MotifSearch@makeMotif@@(...)@
+CCCC_MemExt@MASS_MotifSearch@makeMotif@@(...)@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearch.cpp@366@definition@FT???@LOC:24 COM:0 MVG:2@?@d@
+CCCC_MemExt@MASS_MotifSearch@makeMotif@@(...)@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearch.h@120@declaration@FT???@LOC:5 COM:1 MVG:0@?@D@
+CCCC_Member@MASS_MotifSearch@parseArguments@@(...)@
+CCCC_MemExt@MASS_MotifSearch@parseArguments@@(...)@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearch.cpp@32@definition@FT???@LOC:72 COM:1 MVG:13@?@d@
+CCCC_MemExt@MASS_MotifSearch@parseArguments@@(...)@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearch.h@96@declaration@FT??0@LOC:5 COM:1 MVG:0@0@D@
+CCCC_Member@MASS_MotifSearch@printUsage@@(const char *)@
+CCCC_MemExt@MASS_MotifSearch@printUsage@@(const char *)@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearch.cpp@9@definition@FT???@LOC:22 COM:0 MVG:0@?@d@
+CCCC_MemExt@MASS_MotifSearch@printUsage@@(const char *)@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearch.h@91@declaration@FT??0@LOC:3 COM:1 MVG:0@0@D@
+CCCC_Member@MASS_MotifSearch@run@@(...)@
+CCCC_MemExt@MASS_MotifSearch@run@@(...)@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearch.cpp@627@definition@FT???@LOC:296 COM:29 MVG:18@?@d@
+CCCC_MemExt@MASS_MotifSearch@run@@(...)@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearch.h@41@declaration@F???0@LOC:4 COM:1 MVG:0@0@D@
+CCCC_Member@MASS_MotifSearch@serializeBenchmarkData@@(const CSRGraph &,const MotifPattern &,const vector &)@
+CCCC_MemExt@MASS_MotifSearch@serializeBenchmarkData@@(const CSRGraph &,const MotifPattern &,const vector &)@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearch.cpp@511@definition@FT???@LOC:80 COM:15 MVG:1@?@d@
+CCCC_MemExt@MASS_MotifSearch@serializeBenchmarkData@@(const CSRGraph &,const MotifPattern &,const vector &)@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearch.h@136@declaration@FT???@LOC:5 COM:1 MVG:0@?@D@
+CCCC_Member@MotifPattern@hasEdge@@(const int,const int)@
+CCCC_MemExt@MotifPattern@hasEdge@@(const int,const int)@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearch.cpp@471@definition@TT???@LOC:8 COM:0 MVG:1@?@d@
+CCCC_MemExt@MotifPattern@hasEdge@@(const int,const int)@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearch.h@60@declaration@T????@LOC:4 COM:1 MVG:0@?@D@
+CCCC_Member@RequiredTable@row@@(const int)@
+CCCC_MemExt@RequiredTable@row@@(const int)@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearchMotifPlace.cpp@383@declaration@TT???@LOC:2 COM:0 MVG:0@?@D@
+CCCC_Member@anonymous@destroy@@(Place *)@
+CCCC_MemExt@anonymous@destroy@@(Place *)@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearchMotifPlace.cpp@19@definition@FT???@LOC:5 COM:1 MVG:0@?@d@
+CCCC_Member@anonymous@instantiate@@(void *)@
+CCCC_MemExt@anonymous@instantiate@@(void *)@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearchMotifPlace.cpp@10@definition@FT???@LOC:7 COM:1 MVG:1@?@d@
+CCCC_Member@anonymous@searchFromRoot@@(const int,const int,const vector &,const vector &,const RequiredTable &)@
+CCCC_MemExt@anonymous@searchFromRoot@@(const int,const int,const vector &,const vector &,const RequiredTable &)@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearchMotifPlace.cpp@324@definition@FT???@LOC:46 COM:4 MVG:4@?@d@
+CCCC_UseRel@string@MASS_MotifSearch@
+CCCC_UseExt@string@MASS_MotifSearch@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearch.cpp@185@pass by reference@FT???@*@?@p@
+CCCC_UseExt@string@MASS_MotifSearch@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearch.h@111@pass by reference@FT???@*@?@p@
+CCCC_UseRel@unsigned@MASS_MotifSearch@
+CCCC_UseExt@unsigned@MASS_MotifSearch@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearch.cpp@109@pass by value@FT???@*@?@P@
+CCCC_UseExt@unsigned@MASS_MotifSearch@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearch.h@106@pass by value@FT??0@*@0@P@
+CCCC_UseRel@vector@MASS_MotifSearch@
+CCCC_UseExt@vector@MASS_MotifSearch@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearch.cpp@514@pass by reference@FT???@*@?@p@
+CCCC_UseExt@vector@MASS_MotifSearch@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearch.h@139@pass by reference@FT???@*@?@p@
+CCCC_RejExt@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearch.cpp@1@<file scope items>@FT???@LOC:4 COM:0 MVG:0@?@r@
+CCCC_RejExt@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/MASS/MASSmotifsearch.h@1@<file scope items>@FT??2@LOC:1 COM:1 MVG:0@2@r@

@@ -1,0 +1,32 @@
+================================================
+  NLOC    CCN   token  PARAM  length  location  
+------------------------------------------------
+     133     14    497      6     164 PM2_MotifSearch::runMotifSearchBenchmark@4-167@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/PM2/pm2motifsearch.cpp
+       7      1     32      1       7 PM2_MotifSearch::CSRGraph::degree@169-175@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/PM2/pm2motifsearch.cpp
+       5      1     25      1       5 PM2_MotifSearch::CSRGraph::firstNeighborOfVertex@177-181@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/PM2/pm2motifsearch.cpp
+       5      1     27      1       5 PM2_MotifSearch::CSRGraph::afterLastNeighborOfVertex@183-187@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/PM2/pm2motifsearch.cpp
+      14      1     33      2      15 PM2_MotifSearch::CSRGraph::hasEdge@189-203@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/PM2/pm2motifsearch.cpp
+       7      1     33      2       8 PM2_MotifSearch::MotifPattern::hasEdge@205-212@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/PM2/pm2motifsearch.cpp
+     119      1    466      0     142 PM2_MotifSearch::builtinMotifs@215-356@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/PM2/pm2motifsearch.cpp
+      62      6    286      3      76 PM2_MotifSearch::generateErdosRenyi@358-433@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/PM2/pm2motifsearch.cpp
+     107     10    486      1     132 PM2_MotifSearch::loadGraphFromFile@435-566@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/PM2/pm2motifsearch.cpp
+      42      9    176      1      52 PM2_MotifSearch::computeAutomorphisms@568-619@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/PM2/pm2motifsearch.cpp
+      28      2    136      3      36 PM2_MotifSearch::makeMotif@621-656@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/PM2/pm2motifsearch.cpp
+     110     16    456      3     132 PM2_MotifSearch::searchFromRoot@658-789@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/PM2/pm2motifsearch.cpp
+2 file analyzed.
+==============================================================
+NLOC    Avg.NLOC  AvgCCN  Avg.token  function_cnt    file
+--------------------------------------------------------------
+    642      53.2     5.2      221.1        12     /home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/PM2/pm2motifsearch.cpp
+     91       0.0     0.0        0.0         0     /home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/PM2/pm2motifsearch.h
+
+===========================================================================================================
+!!!! Warnings (cyclomatic_complexity > 15 or length > 1000 or nloc > 1000000 or parameter_count > 100) !!!!
+================================================
+  NLOC    CCN   token  PARAM  length  location  
+------------------------------------------------
+     110     16    456      3     132 PM2_MotifSearch::searchFromRoot@658-789@/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/MotifSearch/PM2/pm2motifsearch.cpp
+==========================================================================================
+Total nloc   Avg.NLOC  AvgCCN  Avg.token   Fun Cnt  Warning cnt   Fun Rt   nloc Rt
+------------------------------------------------------------------------------------------
+       733      53.2     5.2      221.1       12            1      0.08    0.17
