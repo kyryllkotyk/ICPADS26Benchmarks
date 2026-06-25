@@ -1,2 +1,0 @@
-/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/HPX/HPXheat3d.cpp
-/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/Heat3D/HPX/HPXheat3d.h

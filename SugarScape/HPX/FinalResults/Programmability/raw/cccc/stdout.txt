@@ -1,2 +1,0 @@
-/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/HPX/HPXsugarscape.cpp
-/home/NETID/kyryllk/497finalprograms/FinalizedReadyForMetrics/SugarScape/HPX/HPXsugarscape.h
